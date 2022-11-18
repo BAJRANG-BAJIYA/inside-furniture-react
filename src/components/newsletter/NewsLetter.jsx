@@ -1,9 +1,11 @@
 import React from 'react'
+import './newsletter.css'
 
 const NewsLetter = () => {
   return (
     <div className='Newsletter'>
-    <h4>NewsLetter</h4>
+    <p>EARLY ACCESS TO OUR BIGGEST SALE OF THE YEAR! SAVE UP TO 30% WITH CODES <strong>BF20</strong>, BF25, AND BF30</p>
+    
     </div>
   )
 }
