@@ -1,5 +1,5 @@
 // import React from 'react'
-// import './newsletter.scss'
+// import './newsletter.css'
 
 // const NewsLetter = () => {
 //   return (
