@@ -2,9 +2,10 @@
   background-color: #D2E0EA;
     width: 100%;
     padding: 80px 0px;
-    /* width: 1024px; */
     font-size: 12px;
     grid-template-columns: repeat(12, 1fr);
+    overflow: hidden;
+    
   }
   
   .fLists{
