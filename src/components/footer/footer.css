@@ -1,20 +1,39 @@
-@import '../../App.scss';
-
-.footer {
+.footer{
     width: 100%;
-    height: 70vh;
-    background-color: $cream-color;
+    padding: 2rem;
+    width: 1024px;
+    font-size: 12px;
+  }
+  
+  .fLists{
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    p {
-        padding: 3rem;
-        color: $gray-color;
+    margin-bottom: 50px;
+  }
+  
 
-        span {
-            margin-top: 2.2rem;
-            display: block;
-        }
-    }
-       
-    }
+
+  .fList{
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footerInfo{
+    color: #2B8CC5;
+    margin: 0 0 26px;
+    width: 242px;
+    height: 18px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+
+  }
+  .fListItem{
+    margin-bottom: 10px;
+    color: #003580;
+    cursor: pointer;
+  }
+  
