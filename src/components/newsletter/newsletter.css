@@ -1,14 +1,8 @@
-.newsletter {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  max-width: 100%;
-  background-color: #126a88;
-}
-/*# sourceMappingURL=newsletter.css.map */
+// .newsletter {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     max-width: 100%;
+//     background-color: rgb(18, 106, 136);
+    
+// }
