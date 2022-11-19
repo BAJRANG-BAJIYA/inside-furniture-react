@@ -7,8 +7,8 @@ import MailList from '../../components/MailList/MailList';
 const Home = () => {
   return (
     <div className='Home'>
-    <Navbar />
     <NewsLetter/>
+    <Navbar />
     <MailList/>
     <Footer />
     

@@ -11,6 +11,9 @@ const About = () => {
     <Navbar />
 <div className='About'>
    <h3>About</h3>
+   <p>this is the about page
+
+   </p>
     </div>
     <Footer />
     </>

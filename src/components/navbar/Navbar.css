@@ -1,0 +1,72 @@
+
+.navbar{
+    height: 96px;
+    color: rgb(33, 37, 41);
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    font-size: 14.4px;
+    font-weight: 400;
+    line-height: 23.04px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: 100%;
+    
+  }
+
+  .leftSide{
+    width: 40%;
+    max-width: 609.6px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 16px;
+   
+  }
+  .leftContent{
+    list-style: none;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+    
+  }
+ 
+  .logo{
+    width: 300px;
+    height: 100%;
+    color: rgb(32,32,32);
+    box-sizing: border-box;
+  }
+
+.insideLogo{
+    margin: 33px 50px 10px 50px;
+    width: 200px;
+    cursor: pointer;
+    
+}
+
+.rightSide{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+    max-width: 384;
+}
+
+.rightContent{
+    list-style: none;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+    padding-right: 20px;
+    
+}
+
+  .navButton{
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+}

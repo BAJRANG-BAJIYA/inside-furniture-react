@@ -1,5 +1,6 @@
 .mail{
   width: 100%;
+  box-sizing: border-box;
   margin-top: 50px;
   background-color: #5672f0;
   color: white;
