@@ -30,7 +30,9 @@ const Footer = () => {
         
         <div className="fList">
         <div className="footerInfo">NEED HELP?</div>
-          <a className="fListItem">If you have a question about your order, your swatches, the assortment, or anything else on your mind, we're here for you! </a>
+          <a className="fListItem">If you have a question about your order,
+           your swatches,<br/> the assortment, or anything else on your mind, 
+           we're here <br/>for you! </a>
         
         </div>
       </div>
