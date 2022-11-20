@@ -5,7 +5,7 @@ import productImg03 from "../images/double-sofa-03.png";
 import productImg04 from "../images/single-sofa-01.jpg";
 import productImg05 from "../images/single-sofa-02.jpg";
 import productImg06 from "../images/single-sofa-03.jpg";
-import productImg007 from "../images/single-sofa-04.png";
+import productImg07 from "../images/single-sofa-04.png";
 
 import productImg07 from "../images/arm-chair-01.jpg";
 import productImg08 from "../images/arm-chair-02.jpg";
@@ -37,3 +37,45 @@ import productImg31 from "../images/table-1.jpg"
 import productImg32 from "../images/table-2.jpg"
 import productImg33 from "../images/table-3.jpg"
 import productImg34 from "../images/table-4.jpg"
+import productImg35 from "../images/single-sofa-05.png";
+import productImg36 from "../images/single-sofa-06.png";
+
+export default {
+    productImg01,
+    productImg02,
+    productImg03,
+    productImg04,
+    productImg05,
+    productImg06,
+    productImg07,
+    productImg08,
+    productImg09,
+    productImg10,
+    productImg11,
+    productImg12,
+    productImg13,
+    productImg14,
+    productImg15,
+    productImg16,
+    productImg17,
+    productImg18,
+    productImg19,
+    productImg20,
+    productImg21,
+    productImg22,
+    productImg23,
+    productImg24,
+    productImg25,
+    productImg26,
+    productImg27,
+    productImg28,
+    productImg29,
+    productImg30,
+    productImg31,
+    productImg32,
+    productImg33,
+    productImg34,
+    productImg35,
+    productImg36,
+
+};

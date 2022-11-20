@@ -1,21 +1,23 @@
+import images from "./images";
+
 export const sliderItems=[
 {
     id:1,
-    img: img1,
+    img: productImg04,
     title:"Home Decor",
     desc:" Dont Compromise on style",
     bg: "#fafcfb",
 },
 {
     id:2,
-    img: img1,
+    img: productImg07,
     title:"Home Decor",
     desc:" Dont Compromise on style",
     bg: "#fafcfb",
 },
 {
     id:3,
-    img: img1,
+    img: productImg07,
     title:"Home Decor",
     desc:" Dont Compromise on style",
     bg: "#fafcfb",
@@ -144,7 +146,7 @@ export const sliderItems=[
 export const allCategories=[
     {
         id:1,
-        img: productImg01,
+        img: productImg13,
         title:"Beds ",
         desc:" Dont Compromise on style",
         bg: "#fafcfb",
@@ -158,35 +160,35 @@ export const allCategories=[
     },
     {
         id:3,
-        img: img1,
+        img: productImg07,
         title:"Chairs",
         desc:" Dont Compromise on style",
         bg: "#fafcfb",
     },
     {
         id:4,
-        img: img1,
+        img: productImg20,
         title:"Ottomans",
         desc:" Dont Compromise on style",
         bg: "#fafcfb",
     },
     {
         id:5,
-        img: img1,
+        img: productImg26,
         title:"Pillows",
         desc:" Dont Compromise on style",
         bg: "#fafcfb",
     },
     {
         id:6,
-        img: img1,
+        img: productImg18,
         title:"Headboards",
         desc:" Dont Compromise on style",
         bg: "#fafcfb",
     },
     {
         id:7,
-        img: img1,
+        img: productImg31,
         title:"Accent Tables",
         desc:" Dont Compromise on style",
         bg: "#fafcfb",

@@ -1,7 +1,7 @@
 .footer{
-  background-color: #D2E0EA;
+  background-color: var(--cyan);
     width: 100%;
-    padding: 80px 0px;
+    padding: 17px 0px;
     font-size: 12px;
     grid-template-columns: repeat(12, 1fr);
     overflow: hidden;
@@ -19,7 +19,7 @@
   
   
   .footerInfo{
-    color: #2B8CC5;
+    color: var(--info);
     margin: 0 0 26px;
     width: 242px;
     height: 18px;
@@ -34,7 +34,7 @@
     margin-bottom: 10px;
     font-size: 1rem;
     font-style: normal;
-    color: black;
+    color: var(--dark);
     cursor: pointer;
     display: grid;
     text-decoration: none;

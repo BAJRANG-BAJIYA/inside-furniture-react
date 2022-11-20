@@ -1,13 +1,17 @@
 import { useState } from "react";
+import {sliderItems} from "../../assets/data/index";
+
 
 
 function Slider () {
     const [slideIndex, setSlideIndex] = useState(0);
+
+    const left=(props)=>{props.direction === "left" && "10px"};
+    const right=(props)=>{props.direction === "right" && "10px"};
+    
     const handleClick = (direction)=>{
     
-       const left=(props)=>{props.direction === "left" && "10px"};
-       const right=(props)=>{props.direction === "right" && "10px"};
-
+      
       if(direction==="left"){
         setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 2);
       }else{

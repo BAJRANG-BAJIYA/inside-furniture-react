@@ -1,5 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Duru+Sans&family=Lato:ital,wght@0,300;0,700;1,100&family=Montserrat:wght@200;600&family=Poppins:wght@100;400;500&family=Roboto+Mono&display=swap');
 
-*, *::before, *::after{
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-base: 'Cormorant Upright', serif;
+  --font-alt: 'Open Sans', sans-serif;
+
+    --blue: #3490dc;
+    --indigo: #6574cd;
+    --purple: #9561e2;
+    --pink: #f66d9b;
+    --red: #e3342f;
+    --orange: #f6993f;
+    --yellow: #ffed4a;
+    --green: #38c172;
+    --teal: #4dc0b5;
+    --cyan: #6cb2eb;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #3490dc;
+    --secondary: #6c757d;
+    --success: #38c172;
+    --info: #6cb2eb;
+    --warning: #ffed4a;
+    --danger: #e3342f;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "AT Surt",sans-serif;
+}
+
+*::before, *::after{
   box-sizing: inherit;
 }
 
@@ -9,6 +45,7 @@
   overflow-y: inherit;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
