@@ -4,7 +4,6 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <ul className="leftSide">
-        {/* <span className="logo">Book My Hotel</span> */}
         <li className="leftContent"><span>NEW</span></li>
         <li className="leftContent"><span>BEDROOM</span></li>
         <li className="leftContent"><span>LIVING</span></li>
