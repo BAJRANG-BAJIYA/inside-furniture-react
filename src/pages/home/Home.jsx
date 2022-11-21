@@ -6,7 +6,7 @@ import Footer from "../../components/footer/Footer";
 import MailList from '../../components/MailList/MailList';
 import Banner from '../../components/banner/Banner';
 
-import Gallery from '../../components/gallery/Gallery';
+
 
 const Home = () => {
   return (
