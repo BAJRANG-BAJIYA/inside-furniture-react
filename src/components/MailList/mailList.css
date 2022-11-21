@@ -14,15 +14,15 @@
 
 .mailInputContainer>input{
   width: 300px;
-  height: 30px;
+  height: 40px;
   padding: 10px;
   border: none;
-  margin-right: 10px;
+  margin-right: 2px;
   border-radius: 5px;
 }
 
 .mailInputContainer>button{
-  height: 50px;
+  height: 40px;
   background-color: #0071c2;
   color: white;
   font-weight: 500;

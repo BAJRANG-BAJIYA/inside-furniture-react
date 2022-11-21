@@ -1,9 +1,9 @@
 import images from "./images";
 
-const sliderItems = [
+export const sliderItems = [
 {
     id:1,
-    img: images.productImg03,
+    img: images.productImg08,
     title:"Home Decor",
     desc:" Dont Compromise on style",
     bg: "#fafcfb",
@@ -148,7 +148,7 @@ const sliderItems = [
 
 
 
-const allCategories=[
+export const allCategories=[
     {
         id:1,
         img: images.productImg13,
@@ -198,7 +198,7 @@ const allCategories=[
         desc:" Dont Compromise on style",
         bg: "#fafcfb",
     },
-]
+];
 
 
 
@@ -207,7 +207,7 @@ const allCategories=[
 
 
 
-const featured =[
+export const featured =[
     {
         id:1,
         img: images.productImg4,
@@ -229,14 +229,14 @@ const featured =[
         desc:" Dont Compromise on style",
         bg: "#fafcfb",
     },
-]
+];
 
 
 
 
 
 
-const newArrivals =[
+export const newArrivals =[
     {
         id:7,
         img: images.productImg10,
@@ -336,17 +336,12 @@ const newArrivals =[
         bg: "#fafcfb",
     },
 
-] 
+]; 
 
 
 
 
-
-
-
-
-
-const allproducts = [
+export const allproducts = [
     {
       id: "01",
       productName: "Stone and Beam Westview ",

@@ -5,6 +5,8 @@ import NewsLetter from "../../components/newsletter/NewsLetter";
 import Footer from "../../components/footer/Footer";
 import MailList from '../../components/MailList/MailList';
 import Banner from '../../components/banner/Banner';
+import ShopAll from '../../components/shopAll/ShopAll';
+
 
 
 
@@ -15,7 +17,7 @@ const Home = () => {
     <NewsLetter/>
     <Navbar />
     <Banner/>
-    <Gallery/>
+    <ShopAll/>
     <MailList/>
     <Footer />
     
