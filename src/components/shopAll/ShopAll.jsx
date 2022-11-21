@@ -8,7 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 const ShopAll = () => {
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 1500,
     slidesToShow: 4,
     slidesToScroll: 3,
@@ -44,6 +44,7 @@ const ShopAll = () => {
   return (
 
     <div className='SliderContainer'>
+    <h2>Shop By Categories...</h2><button>View All</button>
   <Slider {...settings}>
          {sliderItems.map((item)=>(
           <div className='Card' key={item.id}>

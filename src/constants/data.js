@@ -1,9 +1,11 @@
 import images from "./images";
 
+
+
 export const sliderItems = [
 {
     id:1,
-    img: images.productImg08,
+    img: images.productImg01,
     title:"Home Decor",
     desc:" Dont Compromise on style",
     bg: "#fafcfb",
@@ -17,130 +19,54 @@ export const sliderItems = [
 },
 {
     id:3,
-    img: images.productImg06,
+    img: images.productImg03,
     title:"Home Decor",
     desc:" Dont Compromise on style",
     bg: "#fafcfb",
 },
 {
     id:4,
-    img: images.productImg05,
+    img: images.productImg06,
     title:"Home Decor",
     desc:" Dont Compromise on style",
     bg: "#fafcfb",
 },
 {
     id:5,
-    img: images.productImg08,
+    img: images.productImg05,
     title:"Home Decor",
     desc:" Dont Compromise on style",
     bg: "#fafcfb",
 },
 {
     id:6,
-    img: images.productImg09,
+    img: images.productImg02,
     title:"Home Decor",
     desc:" Dont Compromise on style",
     bg: "#fafcfb",
 },
 {
     id:7,
-    img: images.productImg10,
+    img: images.productImg04,
     title:"Home Decor",
     desc:" Dont Compromise on style",
     bg: "#fafcfb",
 },
 {
     id:8,
-    img: images.productImg11,
+    img: images.productImg08,
     title:"Home Decor",
     desc:" Dont Compromise on style",
     bg: "#fafcfb",
 },
 {
     id:9,
-    img: images.productImg12,
+    img: images.productImg09,
     title:"Home Decor",
     desc:" Dont Compromise on style",
     bg: "#fafcfb",
 },
-{
-    id:10,
-    img: images.productImg13,
-    title:"Home Decor",
-    desc:" Dont Compromise on style",
-    bg: "#fafcfb",
-},
-{
-    id:11,
-    img: images.productImg14,
-    title:"Home Decor",
-    desc:" Dont Compromise on style",
-    bg: "#fafcfb",
-},
-{
-    id:12,
-    img: images.productImg15,
-    title:"Home Decor",
-    desc:" Dont Compromise on style",
-    bg: "#fafcfb",
-},
-{
-    id:13,
-    img: images.productImg16,
-    title:"Home Decor",
-    desc:" Dont Compromise on style",
-    bg: "#fafcfb",
-},
-{
-    id:14,
-    img: images.productImg18,
-    title:"Home Decor",
-    desc:" Dont Compromise on style",
-    bg: "#fafcfb",
-},
-{
-    id:15,
-    img: images.productImg20,
-    title:"Home Decor",
-    desc:" Dont Compromise on style",
-    bg: "#fafcfb",
-},
-{
-    id:16,
-    img: images.productImg21,
-    title:"Home Decor",
-    desc:" Dont Compromise on style",
-    bg: "#fafcfb",
-},
-{
-    id:17,
-    img: images.productImg23,
-    title:"Home Decor",
-    desc:" Dont Compromise on style",
-    bg: "#fafcfb",
-},
-{
-    id:18,
-    img: images.productImg24,
-    title:"Home Decor",
-    desc:" Dont Compromise on style",
-    bg: "#fafcfb",
-},
-{
-    id:19,
-    img: images.productImg26,
-    title:"Home Decor",
-    desc:" Dont Compromise on style",
-    bg: "#fafcfb",
-},
-{
-    id:28,
-    img: images.productImg28,
-    title:"Home Decor",
-    desc:" Dont Compromise on style",
-    bg: "#fafcfb",
-},
+
 ];
 
 
@@ -158,7 +84,7 @@ export const allCategories=[
     },
     {
         id:2,
-        img: images.productImg02,
+        img: images.productImg04,
         title:"Sofas",
         desc:" Dont Compromise on style",
         bg: "#fafcfb",
@@ -386,7 +312,7 @@ export const allproducts = [
     {
       id: "03",
       productName: "Amazon Brand Modern Sofa",
-      img: images.productImg,
+      img: images.productImg12,
       category: "sofa",
       price: 173,
       shortDesc:
@@ -408,7 +334,8 @@ export const allproducts = [
     {
       id: "26",
       productName: "Rivet Bigelow Modern ",
-      img: images.productImg26,      category: "sofa",
+      img: images.productImg26,     
+       category: "sofa",
       price: 253,
       shortDesc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
