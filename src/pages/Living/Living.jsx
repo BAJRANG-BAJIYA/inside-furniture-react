@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Living.css'
-// import Navbar from "../../components/navbar/Navbar";
-// import NewsLetter from "../../components/newsletter/NewsLetter";
+import Navbar from "../../components/navbar/Navbar";
+import NewsLetter from "../../components/newsletter/NewsLetter";
 import Footer from "../../components/footer/Footer";
 import {bedsData} from "../../constants/data"
 
@@ -10,9 +10,9 @@ const Living = () => {
 
   return (
     <>
-    {/* <NewsLetter/> */}
-    {/* <Navbar/> */}
-    <section className='BedRoom'>
+    <NewsLetter/>
+    <Navbar/>
+    <section className='Living'>
       {
         detail.map((detail)=>{
         return(

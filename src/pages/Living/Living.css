@@ -1,4 +1,4 @@
-.BedRoom{
+.Living{
     display: grid;
 grid-template-columns: 1fr 1fr;
 place-items: center;
@@ -90,14 +90,14 @@ margin-top: 5px;
 }
 
 @media screen and (max-width: 850){
-    .BedRoom{
+    .Living{
         grid-template-columns: 1fr 1fr;
     }
 }
 
 
 @media screen and (max-width: 600){
-    .BedRoom{
+    .Living{
         grid-template-columns: 1fr;
     }
 }

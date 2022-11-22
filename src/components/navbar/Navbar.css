@@ -29,7 +29,7 @@
   .leftContent{
     list-style: none;
     font-size: medium;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
     
   }
@@ -59,7 +59,7 @@
 .rightContent{
     list-style: none;
     font-size: medium;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
     padding-right: 20px;
     

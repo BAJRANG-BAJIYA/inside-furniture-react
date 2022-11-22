@@ -9,7 +9,7 @@ const Navbar = () => {
         <li className="leftContent"><span>LIVING</span></li>
         <li className="leftContent"><span>DINING</span></li>
         <li className="leftContent"><span>OUTDOOR</span></li>
-        <li className="leftContent"><span>DECOR</span></li>
+        <li className="leftContent"><span>OFFICE</span></li>
       </ul>
 <a  aria-label="The Inside" href="/" className="logo">
   <img className="insideLogo" src="https://theinside.imgix.net/nav/logo.svg?format=auto" alt="logo"></img>
