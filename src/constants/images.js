@@ -42,43 +42,43 @@ import productImg34 from "../../src/assets/table-4.jpg"
 import productImg35 from "../../src/assets/single-sofa-05.png";
 import productImg36 from "../../src/assets/single-sofa-06.png";
 
-import img36 from "../../src/assets/Beds1.avaif";
-import img37 from "../../src/assets/Beds2.avaif";
-import img38 from "../../src/assets/Beds3.avaif";
-import img39 from "../../src/assets/Beds4.avaif";
-import img40 from "../../src/assets/Beds5.avaif";
-import img401 from "../../src/assets/Beds6.avaif";
-import img41 from "../../src/assets/Beds7.avaif";
-import img42 from "../../src/assets/Beds8.avaif";
-import img43 from "../../src/assets/Beds9.avaif";
-import img44 from "../../src/assets/Beds10.avaif";
-import img45 from "../../src/assets/Beds11.avaif";
-import img46 from "../../src/assets/Beds12.avaif";
-import img47 from "../../src/assets/Beds13.avaif";
-import img48 from "../../src/assets/Beds14.avaif";
-import img49 from "../../src/assets/Beds15.avaif";
-import img50 from "../../src/assets/Beds16.avaif";
-import img51 from "../../src/assets/Beds17.avaif";
-import img52 from "../../src/assets/Beds18.avaif";
-import img53 from "../../src/assets/Beds19.avaif";
-import img54 from "../../src/assets/Beds20.avaif";
+import img36 from "../../src/assets/Beds1.avif";
+import img37 from "../../src/assets/Beds2.avif";
+import img38 from "../../src/assets/Beds3.avif";
+import img39 from "../../src/assets/Beds4.avif";
+import img40 from "../../src/assets/Beds5.avif";
+import img401 from "../../src/assets/Beds6.avif";
+import img41 from "../../src/assets/Beds7.avif";
+import img42 from "../../src/assets/Beds8.avif";
+import img43 from "../../src/assets/Beds9.avif";
+import img44 from "../../src/assets/Beds10.avif";
+import img45 from "../../src/assets/Beds11.avif";
+import img46 from "../../src/assets/Beds12.avif";
+import img47 from "../../src/assets/Beds13.avif";
+import img48 from "../../src/assets/Beds14.avif";
+import img49 from "../../src/assets/Beds15.avif";
+import img50 from "../../src/assets/Beds16.avif";
+import img51 from "../../src/assets/Beds17.avif";
+import img52 from "../../src/assets/Beds18.avif";
+import img53 from "../../src/assets/Beds19.avif";
+import img54 from "../../src/assets/Beds20.avif";
 
-import img55 from "../../src/assets/Benches1.avif";
-import img56 from "../../src/assets/Benches2.avif";
-import img57 from "../../src/assets/Benches3.avaif";
+import img55 from "../../src/assets/Benches1.png";
+import img56 from "../../src/assets/Benches2.png";
+import img57 from "../../src/assets/Benches3.png";
 import img58 from "../../src/assets/Benches4.jpg";
-import img59 from "../../src/assets/Benches5.avaif";
-import img60 from "../../src/assets/Benches6.avaif";
+import img59 from "../../src/assets/Benches5.png";
+import img60 from "../../src/assets/Benches6.png";
 import img61 from "../../src/assets/Benches7.jpg";
-import img62 from "../../src/assets/Benches8.avaif";
+import img62 from "../../src/assets/Benches8.png";
 
-import img63 from "../../src/assets/Cabana1.avaif";
-import img64 from "../../src/assets/Cabana2.avaif";
-import img65 from "../../src/assets/Cabana3.avaif";
-import img66 from "../../src/assets/Cabana4.avaif";
-import img67 from "../../src/assets/Cabana5.avaif";
-import img68 from "../../src/assets/Cabana6.avaif";
-import img69 from "../../src/assets/Cabana7.avaif";
+import img63 from "../../src/assets/Cabana1.avif";
+import img64 from "../../src/assets/Cabana2.avif";
+import img65 from "../../src/assets/Cabana3.avif";
+import img66 from "../../src/assets/Cabana4.avif";
+import img67 from "../../src/assets/Cabana5.avif";
+import img68 from "../../src/assets/Cabana6.avif";
+import img69 from "../../src/assets/Cabana7.avif";
 
 import img70 from "../../src/assets/Chairs1.jpg";
 import img71 from "../../src/assets/Chairs2.jpg";
@@ -87,12 +87,12 @@ import img73 from "../../src/assets/Chairs4.jpg";
 import img74 from "../../src/assets/Chairs5.jpg";
 import img75 from "../../src/assets/Chairs6.jpg";
 
-import img76 from "../../src/assets/DiningChairs1.avif";
-import img77 from "../../src/assets/DiningChairs2.avif";
-import img78 from "../../src/assets/DiningChairs3.avif";
-import img79 from "../../src/assets/DiningChairs4.avif";
-import img80 from "../../src/assets/DiningChairs5.avif";
-import img81 from "../../src/assets/DiningChairs6.avif";
+import img76 from "../../src/assets/DiningChair1.avif";
+import img77 from "../../src/assets/DiningChair2.avif";
+import img78 from "../../src/assets/DiningChair3.avif";
+import img79 from "../../src/assets/DiningChair4.avif";
+import img80 from "../../src/assets/DiningChair5.avif";
+import img81 from "../../src/assets/DiningChair6.avif";
 
 import img82 from "../../src/assets/Ottomans1.jpg";
 import img83 from "../../src/assets/Ottomans2.jpg";
@@ -103,12 +103,12 @@ import img87 from "../../src/assets/Ottomans6.jpg";
 import img88 from "../../src/assets/Ottomans7.jpg";
 import img89 from "../../src/assets/Ottomans8.jpg";
 
-import img90 from "../../src/assets/pillows1.avif";
-import img91 from "../../src/assets/pillows2.avif";
-import img92 from "../../src/assets/pillows3.avif";
-import img93 from "../../src/assets/pillows4.avif";
-import img94 from "../../src/assets/pillows5.avif";
-import img95 from "../../src/assets/pillows6.avif";
+import img90 from "../../src/assets/Pillows1.jpg";
+import img91 from "../../src/assets/Pillows2.jpg";
+import img92 from "../../src/assets/Pillows3.jpg";
+import img93 from "../../src/assets/Pillows4.jpg";
+import img94 from "../../src/assets/Pillows5.jpg";
+import img95 from "../../src/assets/Pillows6.jpg";
 
 
 

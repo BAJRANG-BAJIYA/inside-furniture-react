@@ -3,10 +3,10 @@ import images from "./images";
 export const bedsData = [
 {
   id: 1,
-  productName: "Rivet Bigelow Modern ",
+  productName: "CamelBack bed ",
   img: images.img36,
   category: "Beds",
-  price: $1369,
+  price: "$969",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -25,10 +25,10 @@ export const bedsData = [
 },
 {
   id: 2,
-  productName: "Rivet Bigelow Modern ",
+  productName: "Arched Back Bed ",
   img: images.img37,
   category: "Beds",
-  price: $1200,
+  price: "$1200",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -47,10 +47,10 @@ export const bedsData = [
 },
 {
   id: 3,
-  productName: "Rivet Bigelow Modern ",
+  productName: "SlipCovered Bed ",
   img: images.img38,
   category: "Beds",
-  price: $1200,
+  price: "$1200",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -69,10 +69,10 @@ export const bedsData = [
 },
 {
   id: 4,
-  productName: "Rivet Bigelow Modern ",
+  productName: "Modern wingBack Bed",
   img: images.img39,
   category: "Beds",
-  price: $1200,
+  price: "$1200",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -91,10 +91,10 @@ export const bedsData = [
 },
 {
   id: 5,
-  productName: "Rivet Bigelow Modern ",
+  productName: "Modern Platform Bed",
   img: images.img40,
   category: "Beds",
-  price: $1200,
+  price: "$1559",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -113,10 +113,10 @@ export const bedsData = [
 },
 {
   id: 6,
-  productName: "Rivet Bigelow Modern ",
+  productName: "Square Back Bed ",
   img: images.img41,
   category: "Beds",
-  price: $1200,
+  price: "$1200",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -135,10 +135,10 @@ export const bedsData = [
 },
 {
   id: 7,
-  productName: "Rivet Bigelow Modern ",
+  productName: "CamelBack bed",
   img: images.img42,
   category: "Beds",
-  price: $1200,
+  price: "$1200",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -157,10 +157,10 @@ export const bedsData = [
 },
 {
   id: 8,
-  productName: "Rivet Bigelow Modern ",
+  productName: "CamelBack bed",
   img: images.img43,
   category: "Beds",
-  price: $1200,
+  price: "$1200",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -179,10 +179,10 @@ export const bedsData = [
 },
 {
   id: 9,
-  productName: "Rivet Bigelow Modern ",
+  productName: "CamelBack bed",
   img: images.img44,
   category: "Beds",
-  price: $1200,
+  price: "$1200",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -201,10 +201,10 @@ export const bedsData = [
 },
 {
   id: 10,
-  productName: "Rivet Bigelow Modern ",
+  productName: "CamelBack bed",
   img: images.img45,
   category: "Beds",
-  price: $1200,
+  price: "$1200",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -223,10 +223,10 @@ export const bedsData = [
 },
 {
   id: 11,
-  productName: "Rivet Bigelow Modern ",
+  productName: "Art Deco Bed",
   img: images.img46,
   category: "Beds",
-  price: $1200,
+  price: "$1200",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -245,10 +245,10 @@ export const bedsData = [
 },
 {
   id: 12,
-  productName: "Rivet Bigelow Modern ",
+  productName: "Classic Wingback Bed ",
   img: images.img47,
   category: "Beds",
-  price: $1200,
+  price: "$1340",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -267,10 +267,10 @@ export const bedsData = [
 },
 {
   id: 13,
-  productName: "Rivet Bigelow Modern ",
+  productName: "CamelBack bed",
   img: images.img48,
   category: "Beds",
-  price: $1200,
+  price: "$1200",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -289,10 +289,10 @@ export const bedsData = [
 },
 {
   id: 14,
-  productName: "Rivet Bigelow Modern ",
+  productName: "Square Back Bed",
   img: images.img49,
   category: "Beds",
-  price: $1200,
+  price: "$1325",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -311,10 +311,10 @@ export const bedsData = [
 },
 {
   id: 15,
-  productName: "Rivet Bigelow Modern ",
+  productName: "Regency Bed",
   img: images.img50,
   category: "Beds",
-  price: $1200,
+  price: "$1069",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -333,10 +333,10 @@ export const bedsData = [
 },
 {
   id: 16,
-  productName: "Rivet Bigelow Modern ",
+  productName: "Classic Wingback Bed",
   img: images.img51,
   category: "Beds",
-  price: $1200,
+  price: "$1479",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -355,10 +355,10 @@ export const bedsData = [
 },
 {
   id: 17,
-  productName: "Rivet Bigelow Modern ",
+  productName: "Modern Platform Bed",
   img: images.img52,
   category: "Beds",
-  price: $1200,
+  price: "$1559",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -377,10 +377,10 @@ export const bedsData = [
 },
 {
   id: 18,
-  productName: "Rivet Bigelow Modern ",
+  productName: "CamelBack bed",
   img: images.img53,
   category: "Beds",
-  price: $1200,
+  price: "$1200",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -399,10 +399,10 @@ export const bedsData = [
 },
 {
   id: 19,
-  productName: "Rivet Bigelow Modern ",
+  productName: "CamelBack bed",
   img: images.img54,
   category: "Beds",
-  price: $1200,
+  price: "$1200",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -421,10 +421,10 @@ export const bedsData = [
 },
 {
   id: 20,
-  productName: "Rivet Bigelow Modern ",
+  productName: "Modern Platform Bed",
   img: images.img401,
   category: "Beds",
-  price: $1200,
+  price: "$1559",
   shortDesc:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
   description:
@@ -441,7 +441,7 @@ export const bedsData = [
   ],
   avgRating: 4.7,
 },
-]
+];
 
 
 
@@ -721,531 +721,531 @@ export const newArrivals =[
 
 
 
-export const allproducts = [
-    {
-      id: "01",
-      productName: "Stone and Beam Westview ",
-      img: images.productImg26,      category: "sofa",
-      price: 193,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.7,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.5,
-    },
+// export const allproducts = [
+//     {
+//       id: "01",
+//       productName: "Stone and Beam Westview ",
+//       img: images.productImg26,      category: "sofa",
+//       price: '193',
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.7,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.5,
+//     },
   
-    {
-      id: "02",
-      productName: "Rivet Bigelow Modern ",
-      img: images.productImg26,
-      category: "sofa",
-      price: $120,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.8,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.8,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.7,
-    },
+//     {
+//       id: "02",
+//       productName: "Rivet Bigelow Modern ",
+//       img: images.productImg26,
+//       category: "sofa",
+//       price: $120,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.8,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.8,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.7,
+//     },
   
-    {
-      id: "03",
-      productName: "Amazon Brand Modern Sofa",
-      img: images.productImg12,
-      category: "sofa",
-      price: 173,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.6,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.7,
-    },
-    {
-      id: "26",
-      productName: "Rivet Bigelow Modern ",
-      img: images.productImg26,     
-       category: "sofa",
-      price: 253,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.8,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.8,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.7,
-    },
-    {
-      id: "04",
-      productName: "Fllufy Sheep Sofa",
-      img: images.productImg26,      category: "sofa",
-      price: 163,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.6,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.7,
-    },
+//     {
+//       id: "03",
+//       productName: "Amazon Brand Modern Sofa",
+//       img: images.productImg12,
+//       category: "sofa",
+//       price: 173,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.6,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.7,
+//     },
+//     {
+//       id: "26",
+//       productName: "Rivet Bigelow Modern ",
+//       img: images.productImg26,     
+//        category: "sofa",
+//       price: 253,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.8,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.8,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.7,
+//     },
+//     {
+//       id: "04",
+//       productName: "Fllufy Sheep Sofa",
+//       img: images.productImg26,      category: "sofa",
+//       price: 163,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.6,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.7,
+//     },
   
-    {
-      id: "05",
-      productName: "Faux Velvet Sofa",
-      img: images.productImg26,      category: "sofa",
-      price: 163,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.6,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.7,
-    },
+//     {
+//       id: "05",
+//       productName: "Faux Velvet Sofa",
+//       img: images.productImg26,      category: "sofa",
+//       price: 163,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.6,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.7,
+//     },
   
-    {
-      id: "06",
-      productName: "Fllufy Sheep Sofa",
-      img: images.productImg26,      category: "sofa",
-      price: 163,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.6,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.7,
-    },
-    {
-      id: "07",
-      productName: "Sakarias Armchair",
-      img: images.productImg26,      category: "chair",
-      price: 99,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.6,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.7,
-    },
+//     {
+//       id: "06",
+//       productName: "Fllufy Sheep Sofa",
+//       img: images.productImg26,      category: "sofa",
+//       price: 163,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.6,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.7,
+//     },
+//     {
+//       id: "07",
+//       productName: "Sakarias Armchair",
+//       img: images.productImg26,      category: "chair",
+//       price: 99,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.6,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.7,
+//     },
   
-    {
-      id: "27",
-      productName: "Modern Arm Sofa",
-      img: images.productImg26,
-      category: "sofa",
-      price: 173,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.6,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.7,
-    },
+//     {
+//       id: "27",
+//       productName: "Modern Arm Sofa",
+//       img: images.productImg26,
+//       category: "sofa",
+//       price: 173,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.6,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.7,
+//     },
   
-    {
-      id: "08",
-      productName: "Baltsar Chair",
-      img: images.productImg26,      
-      category: "chair",
-      price: 89,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.6,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.7,
-    },
+//     {
+//       id: "08",
+//       productName: "Baltsar Chair",
+//       img: images.productImg26,      
+//       category: "chair",
+//       price: 89,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.6,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.7,
+//     },
   
-    {
-      id: "09",
-      productName: "Helmar Chair",
-      img: images.productImg26,      category: "chair",
-      price: 112,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.6,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.7,
-    },
+//     {
+//       id: "09",
+//       productName: "Helmar Chair",
+//       img: images.productImg26,      category: "chair",
+//       price: 112,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.6,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.7,
+//     },
   
-    {
-      id: "10",
-      productName: "Apple iPhone 12 Pro",
-      img: images.productImg26,      category: "mobile",
-      price: 799,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.8,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.8,
-    },
-    {
-      id: "25",
-      productName: "Sakarias Armchair",
-      img: images.productImg26,      category: "chair",
-      price: 99,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.6,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.7,
-    },
-    {
-      id: "11",
-      productName: "Apple iPhone 12 Max",
-      img: images.productImg26,      category: "mobile",
-      price: 799,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.8,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.8,
-    },
+//     {
+//       id: "10",
+//       productName: "Apple iPhone 12 Pro",
+//       img: images.productImg26,      category: "mobile",
+//       price: 799,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.8,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.8,
+//     },
+//     {
+//       id: "25",
+//       productName: "Sakarias Armchair",
+//       img: images.productImg26,      category: "chair",
+//       price: 99,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.6,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.7,
+//     },
+//     {
+//       id: "11",
+//       productName: "Apple iPhone 12 Max",
+//       img: images.productImg26,      category: "mobile",
+//       price: 799,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.8,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.8,
+//     },
   
-    {
-      id: "12",
-      productName: "Realme 8",
-      img: images.productImg26,      category: "mobile",
-      price: 599,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.8,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.8,
-    },
+//     {
+//       id: "12",
+//       productName: "Realme 8",
+//       img: images.productImg26,      category: "mobile",
+//       price: 599,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.8,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.8,
+//     },
   
-    {
-      id: "13",
-      productName: "One Plus Nord",
-      img: images.productImg26,      category: "mobile",
-      price: 799,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.8,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.8,
-    },
+//     {
+//       id: "13",
+//       productName: "One Plus Nord",
+//       img: images.productImg26,      category: "mobile",
+//       price: 799,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.8,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.8,
+//     },
   
-    {
-      id: "14",
-      productName: "Apple iPhone 13 Pro",
-      img: images.productImg26,      category: "mobile",
-      price: 899,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.8,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.8,
-    },
+//     {
+//       id: "14",
+//       productName: "Apple iPhone 13 Pro",
+//       img: images.productImg26,      category: "mobile",
+//       price: 899,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.8,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.8,
+//     },
   
-    {
-      id: "15",
-      productName: "Samsung Galaxy S22",
-      img: images.productImg26,      category: "mobile",
-      price: 699,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.8,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.8,
-    },
+//     {
+//       id: "15",
+//       productName: "Samsung Galaxy S22",
+//       img: images.productImg26,      category: "mobile",
+//       price: 699,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.8,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.8,
+//     },
   
-    {
-      id: "16",
-      productName: "Rolex Watch",
-      img: images.productImg26,      category: "watch",
-      price: 299,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.8,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.8,
-    },
+//     {
+//       id: "16",
+//       productName: "Rolex Watch",
+//       img: images.productImg26,      category: "watch",
+//       price: 299,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.8,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.8,
+//     },
   
-    {
-      id: "17",
-      productName: "Timex Easy Reader Watch",
-      img: images.productImg26,      category: "watch",
-      price: 299,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.8,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.8,
-    },
+//     {
+//       id: "17",
+//       productName: "Timex Easy Reader Watch",
+//       img: images.productImg26,      category: "watch",
+//       price: 299,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.8,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.8,
+//     },
   
-    {
-      id: "18",
-      productName: "Rolex Watch",
-      img: images.productImg26,      category: "watch",
-      price: 299,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.8,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.8,
-    },
+//     {
+//       id: "18",
+//       productName: "Rolex Watch",
+//       img: images.productImg26,      category: "watch",
+//       price: 299,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.8,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.8,
+//     },
   
-    {
-      id: "19",
-      productName: "Apple Watch",
-      img: images.productImg26,      category: "watch",
-      price: 399,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.8,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.8,
-    },
+//     {
+//       id: "19",
+//       productName: "Apple Watch",
+//       img: images.productImg26,      category: "watch",
+//       price: 399,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.8,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.8,
+//     },
   
-    {
-      id: "20",
-      productName: "Beat Studio Wireless",
-      img: images.productImg26,      category: "wireless",
-      price: 199,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.8,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.8,
-    },
+//     {
+//       id: "20",
+//       productName: "Beat Studio Wireless",
+//       img: images.productImg26,      category: "wireless",
+//       price: 199,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.8,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.8,
+//     },
   
-    {
-      id: "22",
-      productName: "Beat EP Headphones",
-      img: images.productImg26,      
-      category: "wireless",
-      price: 199,
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-      reviews: [
-        {
-          rating: 4.8,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          rating: 4.9,
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
-      avgRating: 4.8,
-    },
-  ];
+//     {
+//       id: "22",
+//       productName: "Beat EP Headphones",
+//       img: images.productImg26,      
+//       category: "wireless",
+//       price: 199,
+//       shortDesc:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+//       description:
+//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+//       reviews: [
+//         {
+//           rating: 4.8,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//         {
+//           rating: 4.9,
+//           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+//         },
+//       ],
+//       avgRating: 4.8,
+//     },
+//   ];
   
-  export default {bedsData, sliderItems, allCategories, featured, newArrivals, allproducts};
+  export default {bedsData, sliderItems, allCategories, featured, newArrivals};
