@@ -1,5 +1,459 @@
 import images from "./images";
 
+export const bedsData = [
+{
+  id: 1,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img36,
+  category: "Beds",
+  price: $1369,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 2,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img37,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 3,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img38,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 4,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img39,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 5,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img40,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 6,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img41,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 7,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img42,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 8,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img43,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 9,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img44,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 10,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img45,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 11,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img46,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 12,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img47,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 13,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img48,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 14,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img49,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 15,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img50,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 16,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img51,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 17,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img52,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 18,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img53,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 19,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img54,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+{
+  id: 20,
+  productName: "Rivet Bigelow Modern ",
+  img: images.img401,
+  category: "Beds",
+  price: $1200,
+  shortDesc:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  reviews: [
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      rating: 4.8,
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+  ],
+  avgRating: 4.7,
+},
+]
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 export const sliderItems = [
@@ -291,7 +745,7 @@ export const allproducts = [
       productName: "Rivet Bigelow Modern ",
       img: images.productImg26,
       category: "sofa",
-      price: 253,
+      price: $120,
       shortDesc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
       description:
@@ -794,4 +1248,4 @@ export const allproducts = [
     },
   ];
   
-  export default { sliderItems, allCategories, featured, newArrivals, allproducts};
+  export default {bedsData, sliderItems, allCategories, featured, newArrivals, allproducts};

@@ -41,12 +41,13 @@ import productImg33 from "../../src/assets/table-3.jpg"
 import productImg34 from "../../src/assets/table-4.jpg"
 import productImg35 from "../../src/assets/single-sofa-05.png";
 import productImg36 from "../../src/assets/single-sofa-06.png";
+
 import img36 from "../../src/assets/Beds1.avaif";
 import img37 from "../../src/assets/Beds2.avaif";
 import img38 from "../../src/assets/Beds3.avaif";
 import img39 from "../../src/assets/Beds4.avaif";
 import img40 from "../../src/assets/Beds5.avaif";
-import img40 from "../../src/assets/Beds6.avaif";
+import img401 from "../../src/assets/Beds6.avaif";
 import img41 from "../../src/assets/Beds7.avaif";
 import img42 from "../../src/assets/Beds8.avaif";
 import img43 from "../../src/assets/Beds9.avaif";
@@ -149,7 +150,7 @@ export default {
     productImg35,
     productImg36,
     img36,
-    img37,img38,img39,img40,img41,img42,img43,img44,img45,img46,img47,img48,img49,img50,img51,img52,img53,img54,
+    img37,img38,img39,img40,img401,img41,img42,img43,img44,img45,img46,img47,img48,img49,img50,img51,img52,img53,img54,
     img55,img56,img57,img58,img59,img60,img61,img62,
     img63,img64,img65,img66,img67,img68,img69,
     img70,img71,img72,img73,img74,img75,

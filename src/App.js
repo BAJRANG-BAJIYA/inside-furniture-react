@@ -1,11 +1,13 @@
 
-import Home from "./pages/home/Home";
+import Bedroom from "./pages/Bedroom/Bedroom";
+// import Home from "./pages/home/Home";
 
 
 function App() {
   return (
     <div className="App">
-    <Home />
+    <Bedroom/>
+    {/* <Home /> */}
     </div>
   );
 }

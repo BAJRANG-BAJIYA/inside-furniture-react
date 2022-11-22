@@ -3,7 +3,12 @@ import './Bedroom.css'
 
 const Bedroom = () => {
   return (
-    <div>Bedroom</div>
+    <div id='BedRoom'>
+    <div className='Card'>
+    <h2 className='ProductName' key={id}>Custom Upholstered Beds</h2>
+      <img src=''/>
+    </div>
+    </div>
   )
 }
 
