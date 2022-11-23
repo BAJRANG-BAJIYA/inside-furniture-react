@@ -1,0 +1,57 @@
+.Login{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url();
+   
+
+}
+.Wrapper{
+    width: 40%;
+    padding: 20px;
+    background-color: #fff;
+}
+.Title{
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: ghostwhite;
+
+}
+
+
+input{
+    flex: 1;
+    min-width: 40%;
+    margin: 20px 10px 5px 0px;
+    padding: 10px;
+}
+
+.link{
+    font-size: 12px;
+    margin: 20px 0px;
+}
+.Form button{
+    width: 35%;
+    border: none;
+    padding: 15px 20px;
+    margin-top: 10px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

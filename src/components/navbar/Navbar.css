@@ -19,6 +19,7 @@
   .leftSide{
     width: 40%;
     max-width: 609.6px;
+    text-decoration: none;
     color: black;
     display: flex;
     align-items: center;
@@ -32,8 +33,12 @@
     font-weight: 500;
     cursor: pointer;
     
+    
   }
- 
+ .leftContent span{
+  text-decoration: none;
+  color: black;
+ }
   .logo{
     width: 300px;
     height: 100%;
@@ -66,9 +71,11 @@
 }
 
   .navButton{
+    background-color: rgb(255, 255, 255);
   margin-left: 20px;
+  color: black;
   border: none;
-  padding: 5px 10px;
+  padding: 10px 10px;
   cursor: pointer;
-  color: #003580;
+  margin-right: 20px;
 }

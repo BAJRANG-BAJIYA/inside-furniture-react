@@ -1,18 +1,18 @@
 import React, { useState } from 'react'
-import './Living.css'
+import './Outdoor.css'
 import Navbar from "../../components/navbar/Navbar";
 import NewsLetter from "../../components/newsletter/NewsLetter";
 import Footer from "../../components/footer/Footer";
-import {LivingData} from "../../constants/data"
+import {outdoorData} from "../../constants/data"
 
-const Living = () => {
-  const [detail, setDetail]=useState(LivingData);
+const OutDoor = () => {
+  const [detail, setDetail]=useState(outdoorData);
 
   return (
     <>
     <NewsLetter/>
     <Navbar/>
-    <section className='Living'>
+    <section className='Outdoor'>
       {
         detail.map((detail)=>{
         return(
@@ -50,4 +50,4 @@ const Living = () => {
   )
 }
 
-export default Living
+export default OutDoor

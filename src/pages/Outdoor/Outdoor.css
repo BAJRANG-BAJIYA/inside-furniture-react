@@ -1,25 +1,11 @@
-.BedRoom{
+.Outdoor{
     display: grid;
 grid-template-columns: 1fr 1fr;
 place-items: center;
 gap: 40px;
 padding-top:5px;
 background-color: rgb(247,249,250);
-}
-
-.CategoryDetail{
-    display: block;
-    box-sizing: border-box;
-    font-size: 45px;
-    font-weight: 300;
-    line-height: 55px;
-    letter-spacing: -0.035em;
-    font-style: normal;
-    color: black;
-    background-color: ghostwhite;
-    text-align: left;
-    margin-top: 15px;
-    padding: 50px 50px;
+margin-top: 20px;
 }
 
 .column{
@@ -27,7 +13,7 @@ background-color: rgb(247,249,250);
     width: 100%;
     height: 60vh;
     height: min-content;
-    box-shadow: rgba(0,0,0,0.16) 0px 1px 4px;
+    /* box-shadow: rgba(0,0,0,0.16) 0px 1px 4px; */
     margin-bottom: 30px;
 }
 
@@ -57,11 +43,7 @@ background-color: rgb(247,249,250);
     margin-bottom: 10px;
 }
 
-.img:hover{
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    transform: translate(0px,-16px);
-    cursor: pointer;
-}
+
 .InfoContainer{
 width: 100%;
 display: flex;
@@ -108,14 +90,14 @@ margin-top: 5px;
 }
 
 @media screen and (max-width: 850){
-    .BedRoom{
+    .Living{
         grid-template-columns: 1fr 1fr;
     }
 }
 
 
 @media screen and (max-width: 600){
-    .BedRoom{
+    .Living{
         grid-template-columns: 1fr;
     }
 }
