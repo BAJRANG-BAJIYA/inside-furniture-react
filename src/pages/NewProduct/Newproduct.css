@@ -1,0 +1,89 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: yellowgreen;
+}
+.productContainer{
+    position: relative;
+    width: 120rem;
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit,minmax(25rem, 1fr));
+    grid-gap: 2rem;
+    padding:2rem;
+}
+.productContainer .card{
+width: 100%;
+background-color: ghostwhite;
+
+}
+
+.productContainer .card .imgBx{
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    overflow: hidden;
+}
+.productContainer .card .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+    transform-origin:center ;
+}
+
+.productContainer .card:hover .imgBx img{
+transform: scale(1.2);
+}
+
+.productContainer .card .content{
+    padding: 1rem;
+}
+
+.productContainer .card .content .productName h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #333;
+    margin: 5px 0;
+}
+
+.productContainer .card .content .priceRating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productContainer .card .content .priceRating h2{
+font-size: 2rem;
+color: red;
+font-weight: 500;
+}
+
+/* .productContainer .card .content .priceRating .fa{
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.productContainer .card .content .priceRating .fa .grey{
+    color: gray;
+    
+} */
+
+
+
+
+
+
+
