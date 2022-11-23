@@ -1,22 +1,33 @@
 
-
-
-// import Home from "./pages/home/Home";
-
+import Home from "./pages/home/Home";
 import Office from "./pages/Office/Office";
+import Dining from "./pages/Dining/Dining";
+import Bedroom from "./pages/Bedroom/Bedroom";
+import Login from "./pages/Login/Login";
+import Register from "./pages/register/Register";
+import NewProduct from "./pages/NewProduct/NewProduct";
+import Living from "./pages/Living/Living";
 
-// import Dining from "./pages/Dining/Dining";
-
-// import Bedroom from "./pages/Bedroom/Bedroom";
-
+import {
+   Routes, Route} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-{/* <Bedroom/> */}
-    {/* <Home /> */}
-    {/* <Dining/> */}
-    <Office/>
+  <Routes>
+  <Route exact path="/" element={<Home/>} />
+  
+    <Route path ="/newproduct" element={<NewProduct/>}/>
+    <Route path ="/office" element={<Office/>}/>
+    <Route path ="/dining" element={<Dining/>}/>
+    <Route path ="/bedroom" element={<Bedroom/>}/>
+    <Route path ="/living" element={<Living/>}/>
+    <Route path ="/login" element={<Login/>}/>
+    <Route path ="/register" element={<Register/>}/>
+
+
+  </Routes>
+    
 
     </div>
   );

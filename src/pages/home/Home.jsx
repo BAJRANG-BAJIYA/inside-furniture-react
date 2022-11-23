@@ -13,14 +13,12 @@ import ShopAll from '../../components/shopAll/ShopAll';
 const Home = () => {
   return (
     <div className='Home'>
-  
     <NewsLetter/>
     <Navbar />
     <Banner/>
     <ShopAll/>
     <MailList/>
     <Footer />
-    
     </div>
   )
 }
