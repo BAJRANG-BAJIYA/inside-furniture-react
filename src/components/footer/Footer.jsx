@@ -3,9 +3,9 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="fLists">
+      <div className="fListsContainer">
         <div className="fList">
-        <div className="footerInfo">ABOUT THE INSIDE</div>
+        <a className="footerInfo">ABOUT THE INSIDE</a>
           <a className="fListItem" href="">About Us</a>
           <a className="fListItem">Careers</a>
           <a className="fListItem">COVID-19</a>
@@ -14,7 +14,7 @@ const Footer = () => {
           <a className="fListItem">Blogs</a>
         </div>
         <div className="fList">
-        <div className="footerInfo">RESOURCES</div>
+        <a className="footerInfo">RESOURCES</a>
           <a className="fListItem" href="">Contact</a>
           <a className="fListItem">FAQ</a>
           <a className="fListItem">Our Guarantee</a>
@@ -24,16 +24,14 @@ const Footer = () => {
           <a className="fListItem">Gift Cards</a>
         </div>
         <div className="fList">
-        <div className="footerInfo">TRADE</div>
+        <a className="footerInfo">TRADE</a>
           <a className="fListItem" href="">Trade Loyalty Program</a>
         </div>
         
         <div className="fList">
-        <div className="footerInfo">NEED HELP?</div>
-          <a className="fListItem">If you have a question about your order,
-           your swatches,<br/> the assortment, or anything else on your mind, 
-           we're here <br/>for you! </a>
-        
+        <a className="footerInfo">NEED HELP?</a>
+          <a className="fListItem">If you have a question about your order, your swatches, the assortment, or anything else on your mind, we're here <br/>for you! </a>
+         
         </div>
       </div>
       <div className="fText">Copyright © 2022 INSIDEFURNITURE.COM.</div>

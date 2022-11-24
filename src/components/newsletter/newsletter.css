@@ -4,13 +4,18 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 5px 0;
-    height: 20px;
+    padding: .5rem 0;
+    height: 2rem;
     background-color: rgb(210, 224, 234);
     color: black;
     text-transform: uppercase;
  }
 
-.NewsContent{
+ .NewsLetter .NewsContent{
     font-weight: 500;
+    font-size: 1.5rem;
+    font-style: normal;
+    color: var(--dark);
+    line-height: 1.8rem;
+    display: flex;
 }

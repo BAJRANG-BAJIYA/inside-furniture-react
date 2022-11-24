@@ -1,42 +1,68 @@
+*{
+  margin:0;
+  padding:0;  
+}
+
 .footer{
+  box-sizing: border-box;
+  padding-top: 2rem;
   background-color: var(--cyan);
     width: 100%;
-    padding: 17px 0px;
-    font-size: 12px;
-    grid-template-columns: repeat(12, 1fr);
+    padding: 1.7rem 0;
+    font-size: 1.5rem;
+    /* grid-template-columns: repeat(12, 1fr); */
     overflow: hidden;
     
   }
   
-  .fLists{
+  .footer .fListsContainer{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin:0 20px 20px 20px;
+    margin:0 2rem 2rem 2rem;
     list-style: none;
     padding: 0;
   }
-  
-  
-  .footerInfo{
-    color: var(--info);
-    margin: 0 0 26px;
-    width: 242px;
-    height: 18px;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 18px;
-    text-transform: uppercase;
+
+  .footer .fListsContainer .fList{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+width: 40rem;
 
 
   }
-  .fListItem{
-    margin-bottom: 10px;
-    font-size: 1rem;
+  
+  .footer .fListsContainer .fList .footerInfo {
+    margin-bottom: 1rem;
+    padding: 0 4rem;
+    font-size: 1.8rem;
     font-style: normal;
     color: var(--dark);
+    line-height: 1.8rem;
+    display: flex;
+    
+
+
+  }
+  .footer .fListsContainer .fList .fListItem{
+    /* margin-top: 1rem; */
+    padding: .5rem 4rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    color: var(--dark);
+    line-height: 1.8rem;
     cursor: pointer;
     display: grid;
     text-decoration: none;
   }
   
+  .footer .fText{
+    margin-bottom: 1.5rem;
+    padding: 0 4rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    color: var(--dark);
+    line-height: 1.8rem;
+    display: flex;
+  }
