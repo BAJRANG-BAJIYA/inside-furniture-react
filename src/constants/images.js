@@ -40,7 +40,7 @@ import productImg32 from "../../src/assets/table-2.jpg"
 import productImg33 from "../../src/assets/table-3.jpg"
 import productImg34 from "../../src/assets/table-4.jpg"
 import productImg35 from "../../src/assets/single-sofa-05.png";
-import productImg36 from "../../src/assets/single-sofa-06.png";
+
 
 import img36 from "../../src/assets/Beds1.avif";
 import img37 from "../../src/assets/Beds2.avif";
@@ -148,7 +148,6 @@ export default {
     productImg33,
     productImg34,
     productImg35,
-    productImg36,
     img36,
     img37,img38,img39,img40,img401,img41,img42,img43,img44,img45,img46,img47,img48,img49,img50,img51,img52,img53,img54,
     img55,img56,img57,img58,img59,img60,img61,img62,

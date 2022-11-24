@@ -5,49 +5,54 @@ import NewsLetter from "../../components/newsletter/NewsLetter";
 import Footer from "../../components/footer/Footer";
 import {outdoorData} from "../../constants/data"
 
-const OutDoor = () => {
+const Outdoor = () => {
   const [detail, setDetail]=useState(outdoorData);
 
   return (
-    <>
-    <NewsLetter/>
-    <Navbar/>
-    <section className='Outdoor'>
-      {
-        detail.map((detail)=>{
-        return(
-          <div className='column' key={detail.id}>
-    <div className='Card'>
-<div className='img' key={detail.id}>
-<img src={detail.img}/>
-</div>
-<div className='InfoContainer' >
-<h1 className='ProductName' >{detail.productName}</h1>
-<div className='Star' >
-  <i className="fa fa star" aria-hidden="true"></i>
-  <i className="fa fa star" aria-hidden="true"></i>
-  <i className="fa fa star" aria-hidden="true"></i>
-  <i className="fa fa star" aria-hidden="true"></i>
-  <i className="fa fa star" aria-hidden="true"></i>
-  <span>(04)</span>
-</div>
-<h3 className='Price'>{detail.price}</h3>
-<button className='Button'>ADD TO CART</button>
-</div>
-    </div>
-    </div>
-        )
-      })}
+  <>
+   <NewsLetter />
+     <Navbar />
+     <h1 className='outdoorCategoryDetail'>Outdoor Cabana Chairs</h1>
 
-
+ <div className='bodyOutdoor'>
+   
+     
+        <div className='outdoorProductContainer' >
+        {detail.map((detail)=>{
+      return(
+       <div className="card" key={detail.id}>
+       <div className="imgBx">
+        <img src={detail.img} />
+       </div>
+        <div className='content'>
+          <div className='productName'>
+            <h3>{detail.productName}</h3>
+          </div>
+          <div className='priceRating'>
+            <h2>{detail.price}</h2>
+            <div className='rating'>
+            {/* <FontAwesomeIcon icon="fa-solid fa-star" />
+            <FontAwesomeIcon icon="fa-solid fa-star" />
+        */}
+            </div>
+          </div>
+          <button>ADD TO CART</button>
+        </div>
+       </div>
     
-    </section>
+   
 
-  
-   <Footer/>
-    </>
+      )
+     })}
+
+     </div>
+   
+    </div>
+    <Footer />
+  </>
+   
     
   )
 }
 
-export default OutDoor
+export default Outdoor;

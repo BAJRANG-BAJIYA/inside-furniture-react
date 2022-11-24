@@ -8,44 +8,51 @@ import {officeData} from "../../constants/data"
 const Office = () => {
   const [detail, setDetail]=useState(officeData);
 
+
+
   return (
-    <>
-    <NewsLetter/>
-    <Navbar/>
-    <section className='Office'>
-      {
-        detail.map((detail)=>{
-        return(
-          <div className='column' key={detail.id}>
-    <div className='Card'>
-<div className='img' key={detail.id}>
-<img src={detail.img}/>
-</div>
-<div className='InfoContainer' >
-<h1 className='ProductName' >{detail.productName}</h1>
-<div className='Star' >
-  <i className="fa fa star" aria-hidden="true"></i>
-  <i className="fa fa star" aria-hidden="true"></i>
-  <i className="fa fa star" aria-hidden="true"></i>
-  <i className="fa fa star" aria-hidden="true"></i>
-  <i className="fa fa star" aria-hidden="true"></i>
-  <span>(04)</span>
-</div>
-<h3 className='Price'>{detail.price}</h3>
-<button className='Button'>ADD TO CART</button>
-</div>
-    </div>
-    </div>
-        )
-      })}
+  <>
+   <NewsLetter />
+     <Navbar />
+     <h1 className='officeCategoryDetail'>Custom Desk Chairs + Ottomans & Benches</h1>
 
-
+ <div className='bodyOffice'>
+   
+     
+        <div className='officeProductContainer' >
+        {detail.map((detail)=>{
+      return(
+       <div className="card" key={detail.id}>
+       <div className="imgBx">
+        <img src={detail.img} />
+       </div>
+        <div className='content'>
+          <div className='productName'>
+            <h3>{detail.productName}</h3>
+          </div>
+          <div className='priceRating'>
+            <h2>{detail.price}</h2>
+            <div className='rating'>
+            {/* <FontAwesomeIcon icon="fa-solid fa-star" />
+            <FontAwesomeIcon icon="fa-solid fa-star" />
+        */}
+            </div>
+          </div>
+          <button>ADD TO CART</button>
+        </div>
+       </div>
     
-    </section>
+   
 
-  
-   <Footer/>
-    </>
+      )
+     })}
+
+     </div>
+   
+    </div>
+    <Footer />
+  </>
+   
     
   )
 }

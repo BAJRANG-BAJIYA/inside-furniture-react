@@ -2,28 +2,49 @@
 *{
     margin:0;
     padding:0;
-    box-sizing:border-box;
+   
 }
 
-.body{
+.newBody{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: yellowgreen;
+    box-sizing:border-box;
+    background-color: ghostwhite;
+
 }
+
+.CategoryDetail{
+        display: block;
+        box-sizing: border-box;
+
+        font-size: 4.5rem;
+        font-weight: 30rem;
+        line-height: 5.5rem;
+        letter-spacing: -0.035em;
+        font-style: normal;
+        color: black;
+        background-color: ghostwhite;
+        text-align: left;
+        margin-top: 1.5rem;
+        padding: 5rem 5rem;
+    }
+
 .productContainer{
     position: relative;
-    width: 120rem;
+    width: 150rem;
     display: grid;
     
-    grid-template-columns: repeat(auto-fit,minmax(25rem, 1fr));
-    grid-gap: 2rem;
-    padding:2rem;
+    grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+    grid-gap: 2.5rem;
+    padding:2.5rem;
 }
 .productContainer .card{
 width: 100%;
 background-color: ghostwhite;
+border-radius: 1rem;
+box-shadow: rgba(0,0,0,0.16) 0px .1rem .4rem;
 
 }
 
@@ -80,7 +101,6 @@ font-weight: 500;
     color: gray;
     
 } */
-
 
 
 

@@ -3,51 +3,54 @@ import './Dining.css'
 import Navbar from "../../components/navbar/Navbar";
 import NewsLetter from "../../components/newsletter/NewsLetter";
 import Footer from "../../components/footer/Footer";
-import {bedsData} from "../../constants/data"
+import {diningData} from "../../constants/data"
+
 
 const Dining = () => {
-  const [detail, setDetail]=useState(bedsData);
+  const [detail, setDetail]=useState(diningData);
 
   return (
-    <>
-    <NewsLetter/>
-    <Navbar/>
-    <section className='Dining'>
-      {
-        detail.map((detail)=>{
-        return(
-          <div className='column' key={detail.id}>
-    <div className='Card'>
-<div className='img' key={detail.id}>
-<img src={detail.img}/>
-</div>
-<div className='InfoContainer' >
-<h1 className='ProductName' >{detail.productName}</h1>
-<div className='Star' >
-  <i className="fa fa star" aria-hidden="true"></i>
-  <i className="fa fa star" aria-hidden="true"></i>
-  <i className="fa fa star" aria-hidden="true"></i>
-  <i className="fa fa star" aria-hidden="true"></i>
-  <i className="fa fa star" aria-hidden="true"></i>
-  <span>(04)</span>
-</div>
-<h3 className='Price'>{detail.price}</h3>
-<button className='Button'>ADD TO CART</button>
-</div>
+  <>
+   <NewsLetter />
+     <Navbar />
+     <h1 className='CategoryDetailDining'>Dining Chair & Ottomans</h1>
+
+ <div className='bodyDining'>
+   
+     
+        <div className='DiningProductContainer' >
+        {detail.map((detail)=>{
+      return(
+       <div className="card" key={detail.id}>
+       <div className="imgBx">
+        <img src={detail.img} />
+       </div>
+        <div className='content'>
+          <div className='productName'>
+            <h3>{detail.productName}</h3>
+          </div>
+          <div className='priceRating'>
+            <h2>{detail.price}</h2>
+            <div className='rating'>
+            {/* <FontAwesomeIcon icon="fa-solid fa-star" />
+            <FontAwesomeIcon icon="fa-solid fa-star" />
+        */}
+            </div>
+          </div>
+          <button>ADD TO CART</button>
+        </div>
+       </div>
+      )
+     })}
+
+     </div>
+   
     </div>
-    </div>
-        )
-      })}
-
-
-    
-    </section>
-
-  
-   <Footer/>
-    </>
+    <Footer />
+  </>
+   
     
   )
 }
 
-export default Dining
+export default Dining;
