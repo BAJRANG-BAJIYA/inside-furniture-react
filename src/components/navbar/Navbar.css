@@ -1,13 +1,13 @@
 
 .navbar{
-    height: 96px;
+    height: 9.8rem;
     color: rgb(33, 37, 41);
     display: flex;
     align-items: flex-end;
     box-sizing: border-box;
-    font-size: 14.4px;
+    font-size: 1.5rem;
     font-weight: 400;
-    line-height: 23.04px;
+    line-height: 2.3rem;
     text-align: left;
     text-size-adjust: 100%;
     width: 100%;
@@ -16,18 +16,18 @@
     
   }
 
-  .leftSide{
+  .navbar .leftSide{
     width: 40%;
-    max-width: 609.6px;
+    max-width: 61rem;
     text-decoration: none;
     color: black;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 16px;
+    margin-bottom: 1.8rem;
    
   }
-  .leftContent{
+  .navbar .leftSide .leftContent{
     list-style: none;
     font-size: medium;
     font-weight: 500;
@@ -35,47 +35,58 @@
     
     
   }
- .leftContent span{
+  .navbar .leftSide .leftContent span{
   text-decoration: none;
   color: black;
  }
-  .logo{
-    width: 300px;
+  .navbar .logo{
+    max-width: 30rem;
     height: 100%;
     color: rgb(32,32,32);
     box-sizing: border-box;
   }
 
-.insideLogo{
-    margin: 33px 50px 10px 50px;
-    width: 200px;
+  .navbar .logo .insideLogo{
+    margin: 3rem 5rem 1rem 5rem;
+    max-width: 20rem;
     cursor: pointer;
     
 }
 
-.rightSide{
+.navbar .rightSide{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 16px;
-    max-width: 384;
+    margin-bottom: 1.8rem;
+    max-width: 61rem;
 }
 
-.rightContent{
+.navbar .rightSide .rightContent{
     list-style: none;
     font-size: medium;
     font-weight: 500;
     cursor: pointer;
-    padding-right: 20px;
+    padding-right: 2rem;
     
 }
 
-  .navButton{
+.navbar .rightSide .navButton{
     background-color: rgb(255, 255, 255);
-  margin-left: 20px;
+  margin-left: 2rem;
   color: black;
   border: none;
-  padding: 10px 10px;
+  padding: 1rem 1rem;
   cursor: pointer;
-  margin-right: 20px;
+  margin-right: 2rem;
+}
+
+.navbar .rightSide .navCart{
+  background-color: rgb(255, 255, 255);
+  margin-left: 1rem;
+  color: black;
+  border: none;
+  padding: 1rem 2rem 1rem 0;
+  cursor: pointer;
+  margin-right: 2rem;
+
 }
