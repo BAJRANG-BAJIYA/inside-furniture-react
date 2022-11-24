@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Duru+Sans&family=Lato:ital,wght@0,300;0,700;1,100&family=Montserrat:wght@200;600&family=Poppins:wght@100;400;500&family=Roboto+Mono&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Open+Sans:wght@300;400;500;600&display=swap');
 :root {
-  --font-base: 'Cormorant Upright', serif;
-  --font-alt: 'Open Sans', sans-serif;
+  --font-base: 'Lato', sans-serif;
+  --font-alt:  'Open Sans', sans-serif;
+  font-family: 'Cormorant Upright', serif;
 
     --blue: #3490dc;
     --indigo: #6574cd;
@@ -27,6 +27,7 @@
     --danger: #e3342f;
     --light: #f8f9fa;
     --dark: #343a40;
+
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
     --breakpoint-md: 768px;
@@ -44,7 +45,7 @@
   padding: 0;
   overflow-y: inherit;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   scroll-behavior: smooth;
 }
 html{

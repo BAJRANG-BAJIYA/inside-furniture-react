@@ -1,21 +1,17 @@
 .Login{
     width: 100vw;
     height: 100vh;
-    background-size: cover;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-image: url(); */
-   
-
 }
-.Wrapper{
+.Login .loginWrapper{
     width: 40%;
     padding: 20px;
     background-color: #fff;
 }
-.Title{
+.Login .loginWrapper .loginTitle{
     font-size: 24px;
     font-weight: 400;
     display: flex;
@@ -23,7 +19,7 @@
     justify-content: center;
 
 }
-.Form{
+.Login .loginWrapper .loginForm{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -32,18 +28,18 @@
 }
 
 
-input{
+.Login .loginWrapper .loginForm input{
     flex: 1;
     min-width: 40%;
     margin: 20px 10px 5px 0px;
     padding: 10px;
 }
 
-.link{
+.Login .loginWrapper .loginForm .link{
     font-size: 12px;
     margin: 20px 0px;
 }
-.Form button{
+.Login .loginWrapper .loginForm button{
     width: 35%;
     border: none;
     padding: 15px 20px;
