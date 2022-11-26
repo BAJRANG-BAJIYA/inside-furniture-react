@@ -1632,8 +1632,8 @@ export const newProductD =[
 export const allProductData = [
     {
       id: 1,
-      productName: "Double Sofa ",
-      img: images.productImg01,     
+      productName: " dining chairs",
+      img: images.img76,     
        category: "sofa",
       price: '593',
       shortDesc:
@@ -1651,8 +1651,8 @@ export const allProductData = [
   
     {
       id: 2,
-      productName: "Double Sofa ",
-      img: images.productImg02,
+      productName: "cool dining Chairs ",
+      img: images.img77,
       category: "sofa",
       price: "$420",
       shortDesc:
@@ -1674,10 +1674,10 @@ export const allProductData = [
   
     {
       id: 3,
-      productName: "Amazon Brand Modern Sofa",
-      img: images.productImg03,
+      productName: "Amazon Brand Modern dining Chairs",
+      img: images.img78,
       category: "Double Sofa",
-      price: '$473',
+      price: '$273',
       shortDesc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
       description:

@@ -1,13 +1,115 @@
-.SearchBar{
-width: 50%;
-height: auto;
-margin: 0 auto;
-text-align: center;
+
+*{
+    margin:0;
+    padding:0;
+   
 }
 
-.SearchBar input{
-    margin: 3rem 0;
-    padding: .5rem 1rem;
-    border-radius: .5rem;
-    font-family: 'Courier New', Courier, monospace;
+.newSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing:border-box;
+    background-color: ghostwhite;
 }
+
+.searchContainer{
+    position: relative;
+    width: 150rem;
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+    grid-gap: 2.5rem;
+    padding:2.5rem;
+}
+
+.SearchBar{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 10rem;
+    margin: 1rem;
+    text-align: center;
+    }
+    
+input{
+    border: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    max-width: 40rem;
+    height: 30p;
+    margin: 1rem auto;
+    margin-top: 2.5rem;
+        padding: 1rem;
+        color: #333;
+        border-radius: .5rem;
+      -webkit-box-shadow: 0 .2rem 1rem .1rem rgba(0,0,0,0.5);
+        box-shadow: 0 .2rem 1rem .1rem rgba(0,0,0,0.5);
+        /* font-family: 'Courier New', Courier, monospace; */
+    }
+
+.searchContainer .card{
+width: 100%;
+background-color: ghostwhite;
+border-radius: 1rem;
+box-shadow: rgba(0,0,0,0.16) 0px .1rem .4rem;
+
+}
+
+.searchContainer .card .imgBx{
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    overflow: hidden;
+}
+.searchContainer .card .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+    transform-origin:center ;
+}
+
+.searchContainer .card:hover .imgBx img{
+transform: scale(1.2);
+}
+
+.searchContainer .card .content{
+    padding: 1rem;
+}
+
+.searchContainer .card .content .productName h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #333;
+    margin: 5px 0;
+}
+
+.searchContainer .card .content .priceRating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchContainer .card .content .priceRating h2{
+font-size: 2rem;
+color: red;
+font-weight: 500;
+}
+
+/* .searchContainer .card .content .priceRating .fa{
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.searchContainer .card .content .priceRating .fa .grey{
+    color: gray;
+    
+} */
