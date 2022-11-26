@@ -6,8 +6,10 @@ import Bedroom from "./pages/Bedroom/Bedroom";
 import Login from "./pages/Login/Login";
 import Register from "./pages/register/Register";
 import NewProduct from "./pages/NewProduct/NewProduct";
+import Search from "./pages/Search/Search";
 import Living from "./pages/Living/Living";
 import Outdoor from "./pages/Outdoor/Outdoor";
+
 
 
 import {
@@ -25,6 +27,7 @@ function App() {
     <Route path ="/bedroom" element={<Bedroom/>}/>
     <Route path ="/living" element={<Living/>}/>
     <Route path ="/outdoor" element={<Outdoor/>}/>
+    <Route path ="/search" element={<Search/>}/>
     <Route path ="/login" element={<Login/>}/>
     <Route path ="/register" element={<Register/>}/>
 
