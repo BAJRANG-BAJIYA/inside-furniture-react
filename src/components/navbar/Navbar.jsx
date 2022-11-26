@@ -17,9 +17,10 @@ const Navbar = () => {
       <ul className="rightSide">
       <li className="rightContent"><span>COLLABORATION</span></li>
       <li className="rightContent"><span>DESIGNS</span></li>
-      <a className="navButton"><Link to ="/register" style={{textDecoration:'none'}}>Register</Link></a>
-      <a className="navButton"><Link to ="/login" style={{textDecoration:'none'}}>Login</Link></a>
-      <a className="navCart"><Link to ="/Cart" style={{textDecoration:'none'}}>Cart</Link></a>
+      <li className="rightContent"><Link to ="/register" style={{textDecoration:'none'}}><span>REGISTER</span></Link></li>
+      <li className="rightContent"><Link to ="/login" style={{textDecoration:'none'}}><span>LOGIN</span></Link></li>
+      <li className="rightContent"><Link to ="/search" style={{textDecoration:'none'}}><span>SEARCH</span></Link></li> 
+      <li className="rightContent"><Link to ="/Cart" style={{textDecoration:'none'}}><span>CART</span></Link></li>
           
         </ul>
     </div>

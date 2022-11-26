@@ -15,7 +15,6 @@
     z-index: 10;
     
   }
-
   .navbar .leftSide{
     width: 40%;
     max-width: 61rem;
@@ -25,15 +24,12 @@
     align-items: center;
     justify-content: space-around;
     margin-bottom: 1.8rem;
-   
   }
   .navbar .leftSide .leftContent{
     list-style: none;
     font-size: medium;
     font-weight: 500;
     cursor: pointer;
-    
-    
   }
   .navbar .leftSide .leftContent span{
   text-decoration: none;
@@ -57,6 +53,8 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    text-decoration: none;
+    color: black;
     margin-bottom: 1.8rem;
     max-width: 61rem;
 }
@@ -69,7 +67,11 @@
     padding-right: 2rem;
     
 }
-
+.navbar .rightSide .rightContent span{
+  text-decoration: none;
+  color: black;
+ }
+/* 
 .navbar .rightSide .navButton{
     background-color: rgb(255, 255, 255);
   margin-left: 2rem;
@@ -80,7 +82,7 @@
   margin-right: 2rem;
 }
 
-.navbar .rightSide .navCart{
+.navbar .rightSide .navCart span{
   background-color: rgb(255, 255, 255);
   margin-left: 1rem;
   color: black;
@@ -89,4 +91,4 @@
   cursor: pointer;
   margin-right: 2rem;
 
-}
+} */
