@@ -1,0 +1,40 @@
+.cateforiesContainer{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+.categoryContainer{
+    flex: 1;
+    margin: .4rem;
+    height: 70vh;
+    position: relative;
+}
+.categoryContainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.categoryContainer .Info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+}
+
+.categoryContainer .Info .categoryTitle{
+    color: white;
+    margin-bottom: 2rem;
+}
+.categoryContainer .Info .categoryButton{
+    border: none;
+    padding: 1rem;
+    background-color: skyblue;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-weight: 600;
+}
