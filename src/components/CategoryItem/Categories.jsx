@@ -1,16 +1,9 @@
-import React, { useState } from 'react'
-import './CategoryItem.css'
-import featured from "../../constants/data";
-import CategoryItem from './CategoryItem';
-const Categories = () => {
-let categoryData=featured;
+import React from 'react'
 
+const Categories = () => {
   return (
-    <div className="categoriesContainer" >
-        { categoryData && categoryData.map(item=>(
-            <CategoryItem item ={item} key={item.id} /> ))}
-    </div>
+    <div>Categories</div>
   )
 }
 
-export default Categories;
+export default Categories

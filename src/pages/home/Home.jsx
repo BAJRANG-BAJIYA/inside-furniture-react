@@ -5,7 +5,7 @@ import NewsLetter from "../../components/newsletter/NewsLetter";
 import Footer from "../../components/footer/Footer";
 import MailList from '../../components/MailList/MailList';
 import Banner from '../../components/banner/Banner';
-// import Featured from '../../components/featured/Featured';
+import Featured from '../../components/featured/Featured';
 import Categories from '../../components/CategoryItem/Categories';
 
 // import ShopAll from '../../components/shopAll/ShopAll';
@@ -20,7 +20,7 @@ const Home = () => {
     <Navbar />
     <Banner/>
     {/* <ShopAll/> */}
-    {/* <Featured/> */}
+    <Featured/>
     <Categories/>
     <MailList/>
     <Footer />
