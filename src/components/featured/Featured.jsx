@@ -4,24 +4,29 @@ import { useState } from "react";
 
 const Featured = () => {
   const [detail, setDetail]=useState(featured);
+
+
   return (
     <>
 <div className="featuredBody">
-    {detail && detail.map((index)=>{
-return(
-  <div className="featuredItem" key={index.id}>
-        <img
+    {detail.map((index)=>{
+      return(
+        <div className="featuredItem" key={index.id}>
+        <div className="featuredImgBx"><img
           src={index.img}
           alt="image"
-          className="featuredImg"
-        />
+          className="featuredImgs"
+        /></div>
         <div className="featuredTitles">
-          <h1>{index.productName}</h1>
-          <h2>{index.price}</h2>
+          <h3 className="featuredProductName">{index.productName}</h3>
+          <a href="/" className="featuredButton">Buy Now</a>
         </div>
       </div>
-)
+      )
     })}
+ 
+
+    
     </div>
     </>
   );

@@ -6,7 +6,7 @@ import Footer from "../../components/footer/Footer";
 import MailList from '../../components/MailList/MailList';
 import Banner from '../../components/banner/Banner';
 import Featured from '../../components/featured/Featured';
-import Categories from '../../components/CategoryItem/Categories';
+// import Categories from '../../components/CategoryItem/Categories';
 
 // import ShopAll from '../../components/shopAll/ShopAll';
 
@@ -21,7 +21,7 @@ const Home = () => {
     <Banner/>
     {/* <ShopAll/> */}
     <Featured/>
-    <Categories/>
+    {/* <Categories/> */}
     <MailList/>
     <Footer />
     </div>
