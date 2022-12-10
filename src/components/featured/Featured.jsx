@@ -8,10 +8,10 @@ const Featured = () => {
 
   return (
     <>
-<div className="featuredBody">
+<div className="featuredBody"> 
     {detail.map((index)=>{
       return(
-        <div className="featuredItem" key={index.id}>
+        <div className="featuredBody__featuredItem" key={index.id}>
         <div className="featuredImgBx"><img
           src={index.img}
           alt="image"
@@ -24,9 +24,6 @@ const Featured = () => {
       </div>
       )
     })}
- 
-
-    
     </div>
     </>
   );
