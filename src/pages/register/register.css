@@ -7,35 +7,35 @@
     align-items: center;
     justify-content: center;
 }
-.Wrapper{
+.Register__Wrapper{
     width: 40%;
     padding: 20px;
     background-color: #fff;
 }
-.Title{
+.Register__Wrapper__Form__Title{
     font-size: 24px;
     font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.Form{
+.Register__Wrapper__Form{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     background-color: ghostwhite;
 }
-input{
+.Register__Wrapper__Form__input{
     flex: 1;
     min-width: 40%;
     margin: 20px 10px 0px 0px;
     padding: 10px;
 }
-.Agreement{
+.Register__Wrapper__Form__Agreement{
     font-size: 12px;
     margin: 20px 0px;
 }
-.Form button{
+.Form__button{
     width: 35%;
     border: none;
     padding: 15px 20px;

@@ -11,10 +11,10 @@ const Register = () => {
      <NewsLetter />
     <Navbar />
 <div className='Register'>
-   <div className='Wrapper'>
+   <div className='Register__Wrapper'>
     
-    <form className='Form'>
-    <h1 className='Title'>CREATE AN ACCOUNT</h1>
+    <form className='Register__Wrapper__Form'>
+    <h1 className='Register__Wrapper__Form__Title'>CREATE AN ACCOUNT</h1> 
       <input placeholder='Name'/>
       <input placeholder='Last Name'/>
       <input placeholder='UserName'/>
@@ -22,7 +22,7 @@ const Register = () => {
       <input placeholder='Confirm PassWord'/>
       <span className='Agreement'>By Creating an account, I consent to the processig of my personal data in accordance with the <b>PRIVACY POLICY</b>
       </span>
-      <button>CREATE</button>
+      <button className="Form__button">CREATE</button>
     </form>
 
    </div>
