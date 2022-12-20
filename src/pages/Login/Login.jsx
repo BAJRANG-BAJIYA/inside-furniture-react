@@ -16,9 +16,9 @@ const Login = () => {
 <h1 className='Login__Title'> SIGN-IN</h1>
   <input placeholder='username' className="Login__loginInput"/>
   <input placeholder='password' className="Login__loginInput"/>
-  <Link to ="/"><button className='Login__button'>LOGIN</button></Link>
+  <Link to ="/" style={{textDecoration:'none'}}><button className='Login__button'>LOGIN</button></Link>
   <span className='Login__link'>DO NOT REMEMBER THE PASSWORD</span>
-  <Link to ="/register"><span className='Login__link'>CREATE A NEW ACCOUNT</span></Link>
+  <Link to ="/register" style={{textDecoration:'none'}}><span className='Login__link'>CREATE A NEW ACCOUNT</span></Link>
 </form>
    </div>
     

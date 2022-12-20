@@ -5,10 +5,11 @@ import NewsLetter from "../../components/newsletter/NewsLetter";
 import Footer from "../../components/footer/Footer";
 import MailList from '../../components/MailList/MailList';
 import Banner from '../../components/banner/Banner';
-import Featured from '../../components/featured/Featured';
+// import Featured from '../../components/featured/Featured';
 // import Categories from '../../components/CategoryItem/Categories';
 
-// import ShopAll from '../../components/shopAll/ShopAll';
+import ShopAll from '../../components/shopAll/ShopAll';
+import ArrivalPoster from '../../components/ArrivalPoster/ArrivalPoster';
 
 
 
@@ -19,8 +20,9 @@ const Home = () => {
     <NewsLetter/>
     <Navbar />
     <Banner/>
-    {/* <ShopAll/> */}
-    <Featured/>
+    <ArrivalPoster/>
+    <ShopAll/>
+    {/* <Featured/> */}
     {/* <Categories/> */}
     <MailList/>
     <Footer />
