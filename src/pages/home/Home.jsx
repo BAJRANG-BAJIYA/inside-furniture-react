@@ -10,6 +10,7 @@ import Banner from '../../components/banner/Banner';
 
 import ShopAll from '../../components/shopAll/ShopAll';
 import ArrivalPoster from '../../components/ArrivalPoster/ArrivalPoster';
+import BestSellers from '../../components/BestSellers/BestSellers';
 
 
 
@@ -24,6 +25,7 @@ const Home = () => {
     <ShopAll/>
     {/* <Featured/> */}
     {/* <Categories/> */}
+    <BestSellers/>
     <MailList/>
     <Footer />
     </div>

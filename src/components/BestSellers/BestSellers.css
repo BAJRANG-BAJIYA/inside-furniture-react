@@ -1,0 +1,75 @@
+.bestSellers {
+    margin-top: 3rem;
+    height: 80vh;
+    display: flex;
+    background-color: rgb(249, 243, 229);
+    padding: 3.5rem 3.8rem;
+  }
+  
+  .bestSellers__text-container {
+    flex: 1;
+    margin: 14rem 0;
+  }
+  .bestSellers__title{
+        box-sizing: border-box;
+        color: rgb(181, 121, 76);
+        font-size: 3.2rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 3.2rem;
+        letter-spacing: -0.64px;
+        text-align: left;
+        text-size-adjust: 100%;
+        margin-bottom: 2.5rem;
+  }
+  
+  .bestSellers__description{
+      font-size: 5.6rem;
+      font-weight: 300;
+      color: rgb(181, 121, 76);
+      box-sizing: border-box;
+      display: block;
+      letter-spacing: -1.12px;
+      line-height: 6.5rem;
+      margin-bottom: 4.3rem;
+      text-align: left;
+      text-size-adjust: 100%;
+  }
+  
+  .bestSellers__button{
+      
+      cursor: pointer;
+      font-size: 2rem;
+      line-height: 3.2rem;
+      text-align: left;
+      text-decoration-color: rgb(102, 96, 35);
+      text-decoration-line: none;
+      text-decoration-style: solid;
+      text-size-adjust: 100%;
+      color: rgb(102, 96, 35);
+  }
+  .bestSellers__button:hover{
+    text-decoration: underline;
+  }
+
+  .bestSellers__image-container {
+    flex: 1;
+    background: linear-gradient(to bottom, #eee, #fff);
+    transition: background 0.5s;
+    overflow: hidden;
+  }
+  
+  .bestSellers__image-container:hover{
+      background: linear-gradient(to bottom, #fff, #eee);
+  }
+  
+  .bestSellers__image{
+      width: 100%;
+      height: 100%;
+      transition: transform 0.5s;
+  }
+  .bestSellers__image:hover{
+      transform: scale(1.1);
+  
+  }
+  
