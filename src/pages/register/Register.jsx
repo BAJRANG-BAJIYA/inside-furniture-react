@@ -13,16 +13,16 @@ const Register = () => {
 <div className='Register'>
    <div className='Register__Wrapper'>
     
-    <form className='Register__Wrapper__Form'>
-    <h1 className='Register__Wrapper__Form__Title'>CREATE AN ACCOUNT</h1> 
-      <input placeholder='Name'/>
-      <input placeholder='Last Name'/>
-      <input placeholder='UserName'/>
-      <input placeholder='PassWord'/>
-      <input placeholder='Confirm PassWord'/>
-      <span className='Agreement'>By Creating an account, I consent to the processig of my personal data in accordance with the <b>PRIVACY POLICY</b>
+    <form className='Register__Form'>
+    <h1 className='Register__Title'>CREATE AN ACCOUNT</h1> 
+      <input placeholder='FirstName' className="Register__registerInput" />
+      <input placeholder='LastName' className="Register__registerInput" />
+      <input placeholder='UserName' className="Register__registerInput" />
+      <input placeholder='PassWord' className="Register__registerInput" />
+      <input placeholder='Confirm Password' className="Register__registerInput" />
+      <span className='Register__Agreement'>By Creating an account, I consent to the processig of my personal data in accordance with the <b>PRIVACY POLICY</b>
       </span>
-      <button className="Form__button">CREATE</button>
+      <span className="Register__formButton">CREATE</span>
     </form>
 
    </div>

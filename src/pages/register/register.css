@@ -1,50 +1,59 @@
 .Register{
+    position: relative;
     width: 100vw;
     height: 100vh;
-    background-size: cover;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .Register__Wrapper{
-    width: 40%;
-    padding: 20px;
+    position: absolute;
+    min-width: 40vw;
+    min-height: 70vh;
+    padding: 2rem;
     background-color: #fff;
+    border-radius: 1rem;
 }
-.Register__Wrapper__Form__Title{
-    font-size: 24px;
+.Register__Title{
+    font-size: 2.4rem;
     font-weight: 400;
+    margin-top: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.Register__Wrapper__Form{
+.Register__Form{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
     background-color: ghostwhite;
 }
-.Register__Wrapper__Form__input{
+.Register__registerInput{
+
     flex: 1;
-    min-width: 40%;
-    margin: 20px 10px 0px 0px;
-    padding: 10px;
+    min-width: 60%;
+    margin: 1.5rem auto;
+    padding: 1rem;
 }
-.Register__Wrapper__Form__Agreement{
-    font-size: 12px;
-    margin: 20px 0px;
+.Register__Agreement{
+    font-size: 1.2rem;
+    margin: 2rem 0;
 }
-.Form__button{
-    width: 35%;
-    border: none;
-    padding: 15px 20px;
-    margin-right: 50%;
-    background-color: teal;
-    color: white;
-    cursor: pointer;
+.Register__formButton{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 36%;
+    border: none;
+    padding: 1.5rem 2rem;
+    margin: 2rem auto;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    background-color: #0074d9;
+    
+    color: white;
+    cursor: pointer;
+   
 }
- 

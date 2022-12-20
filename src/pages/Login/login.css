@@ -35,7 +35,7 @@
 .Login__loginInput{
     flex: 1;
     min-width: 60%;
-    margin: 2.5rem 1rem .5rem 0;
+    margin: 1.5rem 1rem;
     padding: 1rem;
 }
 
@@ -44,15 +44,13 @@
     margin: 2rem 0;
 }
 .Login__button{
-    width: 35%;
+    padding: 1rem 2rem;
+    margin: 1.5rem auto;
+    background-color: #0074d9;
     border: none;
-    padding: 1rem 4rem;
     border-radius: .5rem;
-    margin-top: 2rem;
-    background-color: teal;
-    color: white;
+    color: #fff;
+    font-size: 1.6rem;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  
 }

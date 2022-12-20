@@ -8,8 +8,8 @@ import "./login.css";
 const Login = () => {
   return (
     <>
-     {/* <NewsLetter /> */}
-    {/* <Navbar /> */}
+     <NewsLetter />
+    <Navbar />
 <div className='Login'>
    <div className='Login__Wrapper'>
 <form className='Login__Form'>
