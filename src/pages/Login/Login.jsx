@@ -8,23 +8,22 @@ import "./login.css";
 const Login = () => {
   return (
     <>
-     <NewsLetter />
-    <Navbar />
+     {/* <NewsLetter /> */}
+    {/* <Navbar /> */}
 <div className='Login'>
-   <div className='Wrapper'>
-<form className='Form'>
-<h1 className='Title'> SIGN-IN</h1>
-  <input placeholder='username'/>
-  <input placeholder='password'/>
-  <Link to ="/"><button>Login</button></Link>
-  <span className='link'>DO NOT REMEMBER THE PASSWORD</span>
-  <Link to ="/register"><span className='link'>CREATE A NEW ACCOUNT</span></Link>
+   <div className='Login__Wrapper'>
+<form className='Login__Form'>
+<h1 className='Login__Title'> SIGN-IN</h1>
+  <input placeholder='username' className="Login__loginInput"/>
+  <input placeholder='password' className="Login__loginInput"/>
+  <Link to ="/"><button className='Login__button'>LOGIN</button></Link>
+  <span className='Login__link'>DO NOT REMEMBER THE PASSWORD</span>
+  <Link to ="/register"><span className='Login__link'>CREATE A NEW ACCOUNT</span></Link>
 </form>
    </div>
     
     </div>
     <Footer />
-
     </>
     
   )

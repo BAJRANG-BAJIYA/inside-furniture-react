@@ -1,49 +1,54 @@
 .Login{
+    position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-color: rgb(34, 134, 201); */
 }
-.Login .loginWrapper{
-    width: 40%;
-    padding: 20px;
-    background-color: #fff;
+.Login__Wrapper{
+    position: absolute;
+    min-width: 35vw;
+    max-height: 70vh;
+    padding: 2rem;
+    background-color: ghostwhite;
+    border-radius: 1rem;
 }
-.Login .loginWrapper .loginTitle{
-    font-size: 24px;
+.Login__Title{
+    font-size: 2.4rem;
     font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-.Login .loginWrapper .loginForm{
+.Login__Form{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: ghostwhite;
-
+    justify-content: center;
+    align-items: center;
 }
 
-
-.Login .loginWrapper .loginForm input{
+.Login__loginInput{
     flex: 1;
-    min-width: 40%;
-    margin: 20px 10px 5px 0px;
-    padding: 10px;
+    min-width: 60%;
+    margin: 2.5rem 1rem .5rem 0;
+    padding: 1rem;
 }
 
-.Login .loginWrapper .loginForm .link{
-    font-size: 12px;
-    margin: 20px 0px;
+.Login__link{
+    font-size: 1.2rem;
+    margin: 2rem 0;
 }
-.Login .loginWrapper .loginForm button{
+.Login__button{
     width: 35%;
     border: none;
-    padding: 15px 20px;
-    margin-top: 10px;
+    padding: 1rem 4rem;
+    border-radius: .5rem;
+    margin-top: 2rem;
     background-color: teal;
     color: white;
     cursor: pointer;
