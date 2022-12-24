@@ -14,24 +14,32 @@
 
 .mail__Title{
   font-size: 2rem;
-}
-.mail__input{
-  width: 30rem;
-  height: 4rem;
   padding: 1rem;
+}
+.mail__InputContainer{
+  width: 40%;
+  height: 4rem;
+  background-color: white;
+  display: flex;
+
+}
+
+.mail__input{
+  min-width: 80%;
+  height: 4rem;
+  padding: .5rem;
   border: none;
-  margin-right: .2rem;
-  border-radius: .5rem;
+  border-radius: .1rem;
 }
 
 .mail__button{
-  height: 3rem;
+  min-width: 20%;
+  height: 4rem;
   background-color: #0071c2;
   color: white;
   font-weight: 500;
   border: none;
-  border-radius: 1rem;
-  margin: 1rem 40%;
+  border-radius: 0;
   cursor: pointer;
 }
 
