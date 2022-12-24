@@ -32,6 +32,7 @@ const Search = () => {
             value={filter}
             placeholder='Search here...'
             onChange={searchInputData.bind(this)}
+            className="SearchInput"
         />
     </div>
      <div className='newSearch'>

@@ -33,14 +33,14 @@
     text-align: center;
     }
     
-input{
+.SearchInput{
     border: none;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     outline: none;
-    max-width: 40rem;
+    min-width: 50rem;
     height: 30p;
     margin: 1rem auto;
     margin-top: 2.5rem;
