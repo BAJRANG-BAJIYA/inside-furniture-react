@@ -2,9 +2,12 @@ import React, { useState } from 'react'
 import Navbar from "../../components/navbar/Navbar"
 import "./Search.css"
 import {allProductData} from "../../constants/data"
+import Pagination from '../Pagination/Pagination'
 
 const Search = () => {
     const [filter, setFilter]=useState("");
+    const [currentPage, setCurrentPage]=useState(1);
+    const [postsPerPage, setPostsPerPage]=useState(8);
 
     const searchInputData=(event)=>{
       setFilter(event.target.value)
@@ -14,6 +17,10 @@ const Search = () => {
         item[key].toString().toLowerCase().includes(filter.toString().toLowerCase())
         )
     })
+
+    const lastPostIndex= currentPage * postsPerPage;
+    const firstPostIndex= lastPostIndex - postsPerPage;
+    const currentPosts= dataSearch.slice(firstPostIndex, lastPostIndex);
 
     return (
       <>
@@ -28,7 +35,7 @@ const Search = () => {
     </div>
      <div className='newSearch'>
             <div className='searchContainer' >
-            {dataSearch.map((item, index)=>{
+            {currentPosts.map((item, index)=>{
           return(
            <div className="card" key={item.id}>
            <div className="imgBx">
@@ -53,6 +60,12 @@ const Search = () => {
          })}
          </div>
         </div>
+        <Pagination 
+        totalPosts={dataSearch.length}
+        postsPerPage={postsPerPage}  
+        setCurrentPage={setCurrentPage}
+        currentPage={currentPage}
+        />
       </>
       )
 }
