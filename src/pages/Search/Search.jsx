@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import Navbar from "../../components/navbar/Navbar"
+import Navbar from "../../components/navbar/Navbar";
+import Footer from "../../components/footer/Footer";
 import "./Search.css"
 import {allProductData} from "../../constants/data"
 import Pagination from '../Pagination/Pagination'
@@ -66,6 +67,7 @@ const Search = () => {
         setCurrentPage={setCurrentPage}
         currentPage={currentPage}
         />
+        <Footer/>
       </>
       )
 }
