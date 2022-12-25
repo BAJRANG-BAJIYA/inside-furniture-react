@@ -104,10 +104,10 @@
     z-index: 1;
 
   }
-  .leftSide{
+  .leftContent{
     display: none;
   }
-  .rightSide{
+  .rightContent{
     display: none;
   }
 }
