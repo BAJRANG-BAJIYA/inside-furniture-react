@@ -11,7 +11,6 @@
     text-align: left;
     text-size-adjust: 100%;
     width: 100%;
-
     z-index: 10;
     
   }
@@ -92,3 +91,23 @@
   margin-right: 2rem;
 
 } */
+.mobile-menu-icon{
+  display: none;
+}
+
+@media screen and (max-width: 1300px){
+  .logo{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+  }
+  .leftSide{
+    display: none;
+  }
+  .rightSide{
+    display: none;
+  }
+}
