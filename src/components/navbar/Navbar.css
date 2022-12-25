@@ -70,27 +70,7 @@
   text-decoration: none;
   color: black;
  }
-/* 
-.navbar .rightSide .navButton{
-    background-color: rgb(255, 255, 255);
-  margin-left: 2rem;
-  color: black;
-  border: none;
-  padding: 1rem 1rem;
-  cursor: pointer;
-  margin-right: 2rem;
-}
 
-.navbar .rightSide .navCart span{
-  background-color: rgb(255, 255, 255);
-  margin-left: 1rem;
-  color: black;
-  border: none;
-  padding: 1rem 2rem 1rem 0;
-  cursor: pointer;
-  margin-right: 2rem;
-
-} */
 .mobile-menu-icon{
   display: none;
 }
