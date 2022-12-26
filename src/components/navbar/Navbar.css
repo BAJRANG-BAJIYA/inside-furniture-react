@@ -75,7 +75,7 @@
   display: none;
 }
 
-/* @media screen and (max-width: 1300px){
+ @media screen and (max-width: 1300px){
   .logo{
     display: flex;
     position: absolute;
@@ -90,4 +90,21 @@
   .rightContent{
     display: none;
   }
-} */
+} 
+
+@media screen and (max-width: 800px){
+  .logo{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    /* z-index: 1; */
+
+  }
+  .leftContent{
+    display: none;
+  }
+  .rightContent{
+    display: none;
+  }
+} 
