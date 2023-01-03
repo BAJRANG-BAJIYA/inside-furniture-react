@@ -9,11 +9,9 @@ import NewProduct from "./pages/NewProduct/NewProduct";
 import Search from "./pages/Search/Search";
 import Living from "./pages/Living/Living";
 import Outdoor from "./pages/Outdoor/Outdoor";
+import Cart from "./pages/Cart/Cart";
+import { Routes, Route} from "react-router-dom";
 
-
-
-import {
-   Routes, Route} from "react-router-dom";
 
 function App() {
   return (
@@ -30,7 +28,7 @@ function App() {
     <Route path ="/search" element={<Search/>}/>
     <Route path ="/login" element={<Login/>}/>
     <Route path ="/register" element={<Register/>}/>
-
+    <Route path = "cart" element={<Cart/>} />
 
   </Routes>
     

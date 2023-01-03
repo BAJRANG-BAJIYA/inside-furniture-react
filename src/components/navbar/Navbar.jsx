@@ -24,7 +24,7 @@ const Navbar = () => {
       <li className="rightContent"><Link to ="/register" style={{textDecoration:'none'}}><span>REGISTER</span></Link></li>
       <li className="rightContent"><Link to ="/login" style={{textDecoration:'none'}}><span>LOGIN</span></Link></li>
       <li className="rightContent"><Link to ="/search" style={{textDecoration:'none'}}><span>SEARCH</span></Link></li> 
-      <li className="rightContent"><Link to ="/search" style={{textDecoration:'none'}}><span>CART</span></Link></li>
+      <li className="rightContent"><Link to ="/cart" style={{textDecoration:'none'}}><span>CART</span></Link></li>
           
         </ul>
         <button className="mobile-menu-icon">
