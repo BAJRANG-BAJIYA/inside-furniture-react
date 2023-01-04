@@ -64,3 +64,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn{
+  background-color: rgba(60,58,58);
+    color: white;
+    padding: 1rem;
+    border-radius: .8rem;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}

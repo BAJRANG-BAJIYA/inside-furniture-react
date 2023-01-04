@@ -37,7 +37,7 @@ const Dining = () => {
         */}
             </div>
           </div>
-          <button>ADD TO CART</button>
+          <button className='btn'>ADD TO CART</button>
         </div>
        </div>
       )
