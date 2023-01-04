@@ -3,7 +3,14 @@ import "./Cart.css"
 
 const Cart = () => {
   return (
-    <div>Cart</div>
+    <>
+  <div className="Cart">
+<div className='Cart__Container'>
+ Cart
+</div>
+  </div>
+    </>
+    
   )
 }
 
