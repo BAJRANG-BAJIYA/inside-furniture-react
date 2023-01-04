@@ -72,5 +72,6 @@ code {
     border-radius: .8rem;
     border: none;
     cursor: pointer;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
