@@ -15,7 +15,10 @@ const Cart = () => {
           <h2 className='CartContainer__Cart__Products__Product-price'>$1100</h2>
           <h2 className='CartContainer__Cart__Products__Product-offer'>20%</h2>
           <p className='CartContainer__Cart__Products__Product-quantity'>Qnt:2</p> <input value="1" name=''/>
-          
+          <p>
+            <i className='' aria-hidden="true"></i>
+            <span className='CartContainer__Cart__Products__Product-remove'>Remove</span>
+          </p>
         </div>
       </div>
     </div>
