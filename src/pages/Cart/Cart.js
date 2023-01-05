@@ -5,7 +5,7 @@ const Cart = () => {
   return (
     <>
   <div className="CartContainer">
-  <h1>Shopping Cart</h1>
+  <h1 className='CartContainer__CartHeading'>Shopping Cart</h1>
 <div className='CartContainer__Cart'>
     <div className='CartContainer__Cart__Products'>
       <div className='CartContainer__Cart__Products__Product'>
