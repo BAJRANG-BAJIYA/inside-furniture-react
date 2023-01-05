@@ -1,0 +1,18 @@
+.CartContainer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.CartContainer__CartHeading{
+    padding: 2rem 0;
+}
+
+.CartContainer__Cart{
+    display: flex;
+}
+.CartContainer__Cart__Products{
+    display: flex;
+    width: 100%;
+    height: 20em;
+    overflow: hidden;
+}
