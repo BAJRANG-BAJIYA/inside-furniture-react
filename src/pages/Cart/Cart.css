@@ -15,4 +15,12 @@
     width: 100%;
     height: 20em;
     overflow: hidden;
+    border: 1 px solid silver;
+}
+
+.CartContainer__Cart__Products__Product >img{
+    width: 15rem;
+    height: 10rem;
+    object-fit: cover;
+
 }
