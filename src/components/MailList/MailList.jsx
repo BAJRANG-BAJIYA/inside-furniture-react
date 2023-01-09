@@ -1,4 +1,5 @@
 import "./mailList.css"
+import { BiSend } from "react-icons/bi";
 
 const MailList = () => {
   return (
@@ -7,7 +8,7 @@ const MailList = () => {
       <h2 className="mail__Desc">Sign up and we'll send the best deals to you</h2>
       <div className="mail__InputContainer">
         <input type="text" placeholder="Your Email" className="mail__input"/>
-        <button className="mail__button">CLICK</button>
+        <button className="mail__button"><BiSend  size={22}/></button>
       </div> 
     </div>
   )
