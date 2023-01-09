@@ -10,7 +10,8 @@
     line-height: 2.3rem;
     text-align: left;
     text-size-adjust: 100%;
-    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
     z-index: 10;
     
   }
