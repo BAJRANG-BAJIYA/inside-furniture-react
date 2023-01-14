@@ -3,8 +3,8 @@
   max-width: 100%;
   box-sizing: border-box;
   margin-top: 5rem;
-  background-color: #5672f0;
-  color: white;
+  background-color: var(--indigo);
+  color: var(--white);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,7 @@
 .mail__InputContainer{
   width: 40%;
   height: 4rem;
-  background-color: white;
+  background-color: var(--white);
   display: flex;
 
 }
@@ -36,8 +36,8 @@
 .mail__button{
   min-width: 20%;
   height: 4rem;
-  background-color: #0071c2;
-  color: white;
+  background-color: var(--blue);
+  color: var(--white);
   font-weight: 500;
   border: none;
   border-radius: 0;
