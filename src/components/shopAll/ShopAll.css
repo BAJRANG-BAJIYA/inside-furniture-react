@@ -1,11 +1,11 @@
 .SliderContainer{
-    margin-top: 40px;
+    margin-top: 4rem;
     box-sizing: border-box;
 
 }
 h2{
     display: inline-block;
-    margin:0 5px 0 10px ;
+    margin:0 .5rem 0 1rem ;
     font-weight: 500;
 
 }
@@ -14,9 +14,9 @@ button{
     
     align-items: center;
     justify-content: center;
-    padding: 5px;
-    border-radius: 10px;
-    color: black;
+    padding: .5rem;
+    border-radius: 1rem;
+    color: var(--dark);
     background-color: transparent;
     cursor: pointer;
     
@@ -24,8 +24,8 @@ button{
 .Card{
     width: 40vw; 
     height: 60vh;
-    padding: 5px;
-    background-color: rgb(255, 255, 255);
+    padding: .5rem;
+    background-color: var(--white);
 }
 
 img{
