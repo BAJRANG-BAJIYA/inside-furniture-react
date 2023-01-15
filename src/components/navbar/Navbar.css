@@ -1,7 +1,7 @@
 
 .navbar{
     height: 9.8rem;
-    color: rgb(33, 37, 41);
+    color: var(--gray-dark);
     display: flex;
     align-items: flex-end;
     box-sizing: border-box;
@@ -19,7 +19,7 @@
     width: 40%;
     max-width: 61rem;
     text-decoration: none;
-    color: black;
+    color: var(--dark);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -33,12 +33,12 @@
   }
   .navbar .leftSide .leftContent span{
   text-decoration: none;
-  color: black;
+  color: var(--dark);
  }
   .navbar .logo{
     max-width: 30rem;
     height: 100%;
-    color: rgb(32,32,32);
+    color: var(--gray-dark);
     box-sizing: border-box;
   }
 
@@ -54,7 +54,7 @@
     align-items: center;
     justify-content: flex-start;
     text-decoration: none;
-    color: black;
+    color: var(--dark);
     margin-bottom: 1.8rem;
     max-width: 61rem;
 }
@@ -69,7 +69,7 @@
 }
 .navbar .rightSide .rightContent span{
   text-decoration: none;
-  color: black;
+  color: var(--dark);
  }
 
 .mobile-menu-icon{
