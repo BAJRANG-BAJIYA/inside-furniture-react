@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .pagination button{
@@ -16,13 +17,14 @@
     cursor: pointer;
     transition: all 0.3s ease;
     background: transparent;
-    color: #101010;
-    border-color: #eee;
+    color: var(--dark);
+    border-color: var(--light);
+    
 }
 
 .pagination button.active {
     font-weight: 800;
-    border-color: #101010;
-    background: #ffe400;
-    color: #101010;
+    border-color: var(--dark);
+    background: var(--warning);
+    color: var(--dark);
 }
