@@ -6,8 +6,8 @@
     width: 100%;
     padding: .5rem 0;
     height: 2rem;
-    background-color: rgb(210, 224, 234);
-    color: black;
+    background-color:var(--white);
+    color: var(--dark);
     text-transform: uppercase;
  }
 
