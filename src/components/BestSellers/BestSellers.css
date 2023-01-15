@@ -2,7 +2,7 @@
     margin-top: 3rem;
     height: 80vh;
     display: flex;
-    background-color: rgb(249, 243, 229);
+    background-color:var(--white);
     padding: 3.5rem 3.8rem;
   }
   
@@ -10,9 +10,10 @@
     flex: 1;
     margin: 14rem 0;
   }
+  
   .bestSellers__title{
         box-sizing: border-box;
-        color: rgb(181, 121, 76);
+        color: var(--orange);
         font-size: 3.2rem;
         font-style: italic;
         font-weight: bold;
@@ -21,12 +22,13 @@
         text-align: left;
         text-size-adjust: 100%;
         margin-bottom: 2.5rem;
+        font-family: var(--font-base);
   }
   
   .bestSellers__description{
       font-size: 5.6rem;
       font-weight: 300;
-      color: rgb(181, 121, 76);
+      color: var(--orange);
       box-sizing: border-box;
       display: block;
       letter-spacing: -1.12px;
@@ -37,7 +39,6 @@
   }
   
   .bestSellers__button{
-      
       cursor: pointer;
       font-size: 2rem;
       line-height: 3.2rem;
@@ -48,6 +49,7 @@
       text-size-adjust: 100%;
       color: rgb(102, 96, 35);
   }
+
   .bestSellers__button:hover{
     text-decoration: underline;
   }
