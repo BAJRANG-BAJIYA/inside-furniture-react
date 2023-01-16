@@ -41,7 +41,9 @@ const Search = () => {
           return(
            <div className="card" key={item.id}>
            <div className="imgBx">
-            <img src={item.img} />
+            <img src={item.img} 
+              loading='lazy'
+            />
            </div>
             <div className='content'>
               <div className='productName'>
