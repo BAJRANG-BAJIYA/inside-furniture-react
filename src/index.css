@@ -25,7 +25,7 @@
     --info: #6cb2eb;
     --warning: #ffed4a;
     --danger: #e3342f;
-    --light: #f8f9fa;
+    --light: #f8f8ff;
     --dark: #343a40;
 
     --breakpoint-xs: 0;
@@ -33,7 +33,6 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
-    --font-family-sans-serif: "AT Surt",sans-serif;
 }
 
 *{
@@ -47,6 +46,8 @@
 html{
   font-size: 62.5%;
 }
+
+
 body {
   
   font-family: "Poppins", sans-serif;
