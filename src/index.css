@@ -36,10 +36,6 @@
     --font-family-sans-serif: "AT Surt",sans-serif;
 }
 
-/* *::before, *::after{
-  box-sizing: inherit;
-} */
-
 *{
   margin: 0;
   padding: 0;
