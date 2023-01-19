@@ -9,7 +9,7 @@
     background-position: bottom;
 }
 
-.BannerBtn{
+.Banner__BannerBtn{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -23,5 +23,36 @@
     border: .1rem solid rgb(109, 109, 109);
     border-radius: 3.5rem;
     cursor: pointer;
+    
+}
+
+@media (min-width:1200) {
+    .Banner{
+        height: 60vh;
+    }
+    
+}
+@media (min-width:992) and (max-width:1199){
+    .Banner{
+        height: 50vh;
+    }
+    
+}
+@media (min-width:768) and (max-width:991){
+    .Banner{
+        height: 40vh;
+    }
+    
+}
+@media (min-width:576) and (max-width:767){
+    .Banner{
+        height: 40vh;
+    }
+    
+}
+@media (min-width:340) and (max-width:575){
+    .Banner{
+        height: 30vh;
+    }
     
 }
