@@ -26,7 +26,7 @@
     
 }
 
-@media (min-width:1200) {
+@media (min-width:1200) and (max-width:1500) {
     .Banner{
         height: 60vh;
     }
@@ -34,25 +34,25 @@
 }
 @media (min-width:992) and (max-width:1199){
     .Banner{
-        height: 50vh;
+        height: 45vh;
     }
     
 }
 @media (min-width:768) and (max-width:991){
     .Banner{
-        height: 40vh;
+        height: 35vh;
     }
     
 }
 @media (min-width:576) and (max-width:767){
     .Banner{
-        height: 40vh;
+        height: 25vh;
     }
     
 }
 @media (min-width:340) and (max-width:575){
     .Banner{
-        height: 30vh;
+        height: 20vh;
     }
     
 }
