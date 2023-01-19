@@ -2,16 +2,16 @@
     margin-top: 3rem;
     height: 80vh;
     display: flex;
-    background-color:var(--white);
+    background-color:var(--lightcream);
     padding: 3.5rem 3.8rem;
   }
   
-  .bestSellers__text-container {
+  .bestSellers__textContainer {
     flex: 1;
     margin: 14rem 0;
   }
   
-  .bestSellers__title{
+  .bestSellers__textContainer-title{
         box-sizing: border-box;
         color: var(--orange);
         font-size: 3.2rem;
@@ -25,7 +25,7 @@
         font-family: var(--font-base);
   }
   
-  .bestSellers__description{
+  .bestSellers__textContainer-description{
       font-size: 5.6rem;
       font-weight: 300;
       color: var(--orange);
@@ -38,7 +38,7 @@
       text-size-adjust: 100%;
   }
   
-  .bestSellers__button{
+  .bestSellers__textContainer-button{
       cursor: pointer;
       font-size: 2rem;
       line-height: 3.2rem;
@@ -50,27 +50,27 @@
       color: rgb(102, 96, 35);
   }
 
-  .bestSellers__button:hover{
+  .bestSellers__textContainer-button:hover{
     text-decoration: underline;
   }
 
-  .bestSellers__image-container {
+  .bestSellers__imageContainer {
     flex: 1;
     background: linear-gradient(to bottom, #eee, #fff);
     transition: background 0.5s;
     overflow: hidden;
   }
   
-  .bestSellers__image-container:hover{
+  .bestSellers__imageContainer:hover{
       background: linear-gradient(to bottom, #fff, #eee);
   }
   
-  .bestSellers__image{
+  .bestSellers__imageContainer-image{
       width: 100%;
       height: 100%;
       transition: transform 0.5s;
   }
-  .bestSellers__image:hover{
+  .bestSellers__imageContainer-image:hover{
       transform: scale(1.1);
   
   }
