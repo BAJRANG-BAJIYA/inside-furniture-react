@@ -5,17 +5,23 @@
     justify-content: center;
     width: 100%;
     padding: .5rem 0;
-    height: 2rem;
-    background-color:var(--white);
+    height: 2.5rem;
+    background-color:var(--cyan);
     color: var(--dark);
     text-transform: uppercase;
  }
 
- .NewsLetter .NewsContent{
+ .NewsLetter__NewsContent{
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-style: normal;
     color: var(--dark);
-    line-height: 1.8rem;
+    line-height: 2rem;
     display: flex;
+}
+
+@media (max-width:900px) {
+    .NewsLetter{
+        display: none;
+    }
 }
