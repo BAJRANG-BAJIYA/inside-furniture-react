@@ -8,31 +8,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: rgb(34, 134, 201); */
 }
 .Login__Wrapper{
     position: absolute;
     min-width: 35vw;
     max-height: 70vh;
     padding: 2rem;
-    background-color: ghostwhite;
-    border-radius: 1rem;
+    background-color: var(--light);
+    border-radius: 2rem;
 }
-.Login__Title{
-    font-size: 2.4rem;
-    font-weight: 400;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
 .Login__Form{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: ghostwhite;
+    background-color: var(--light);
+}
+
+.Login__Title{
+    font-size: 2.4rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Login__loginInput{
@@ -49,11 +49,13 @@
 .Login__button{
     padding: 1rem 2rem;
     margin: 1.5rem auto;
-    background-color: #0074d9;
+    background-color: var(--primary);
     border: none;
     border-radius: .5rem;
-    color: #fff;
+    color: var(--white);
     font-size: 1.6rem;
     cursor: pointer;
-  
+}
+.Login__button:hover{
+    background-color: rgb(13, 85, 179);
 }
