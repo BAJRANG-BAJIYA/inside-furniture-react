@@ -13,6 +13,7 @@
     max-width: 1400px;
     margin: 0 auto;
     z-index: 10;
+    overflow: hidden;
     
   }
   .navbar .leftSide{

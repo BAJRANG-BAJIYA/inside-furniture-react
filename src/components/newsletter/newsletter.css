@@ -4,11 +4,14 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: .5rem 0;
+    padding: 0;
     height: 2.5rem;
     background-color:var(--cyan);
     color: var(--dark);
     text-transform: uppercase;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
  }
 
  .NewsLetter__NewsContent{

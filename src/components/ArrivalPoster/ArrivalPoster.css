@@ -3,6 +3,9 @@
   display: flex;
   background-color: #E2EBA7;
   padding: 9rem 14rem;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
 }
 
 .feature__image-container {

@@ -4,6 +4,7 @@
     display: flex;
     background-color:var(--lightcream);
     padding: 3.5rem 3.8rem;
+    overflow: hidden;
   }
   
   .bestSellers__textContainer {
