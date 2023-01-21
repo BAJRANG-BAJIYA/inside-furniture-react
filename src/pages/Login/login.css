@@ -1,4 +1,6 @@
 .Login{
+    margin: 0;
+    padding: 0;
     position: relative;
     width: 100vw;
     height: 80vh;
@@ -30,6 +32,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: ghostwhite;
 }
 
 .Login__loginInput{

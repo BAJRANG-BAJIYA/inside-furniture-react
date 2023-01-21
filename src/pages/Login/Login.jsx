@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from "../../components/navbar/Navbar";
 import NewsLetter from "../../components/newsletter/NewsLetter";
-import Footer from "../../components/footer/Footer";
 import { Link } from 'react-router-dom';
 import "./login.css";
 
@@ -23,7 +22,6 @@ const Login = () => {
    </div>
     
     </div>
-    <Footer />
     </>
     
   )
