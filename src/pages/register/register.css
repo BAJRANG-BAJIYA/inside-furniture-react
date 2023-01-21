@@ -1,7 +1,9 @@
 .Register{
+    margin: 0;
+    padding: 0;
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    max-width: 100vw;
+    height: 85vh;
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -10,50 +12,48 @@
 .Register__Wrapper{
     position: absolute;
     min-width: 40vw;
-    min-height: 70vh;
+    max-height: 72vh;
     padding: 2rem;
-    background-color: #fff;
-    border-radius: 1rem;
+    background-color: var(--light);
+    border-radius: 2rem;
 }
-.Register__Title{
-    font-size: 2.4rem;
-    font-weight: 400;
-    margin-top: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .Register__Form{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: ghostwhite;
-}
-.Register__registerInput{
+    align-items: center;
+    background-color: var(--light);
+} 
 
+.Register__Title{
+    font-size: 2.4rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Register__registerInput{
     flex: 1;
     min-width: 60%;
-    margin: 1.5rem auto;
+    margin: 1.5rem 1rem;
     padding: 1rem;
 }
 .Register__Agreement{
     font-size: 1.2rem;
     margin: 2rem 0;
 }
-.Register__formButton{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 36%;
+.Register__Button{
+    padding: 1rem 2rem;
+    background-color: var(--primary);
     border: none;
-    padding: 1.5rem 2rem;
-    margin: 2rem auto;
-    font-size: 1.6rem;
     border-radius: .5rem;
-    background-color: #0074d9;
-    
-    color: white;
+    color: var(--white);
+    font-size: 1.6rem;
     cursor: pointer;
-   
+}
+.Register__Button:hover{
+    background-color: rgb(13, 85, 179);
 }
