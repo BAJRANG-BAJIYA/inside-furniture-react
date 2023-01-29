@@ -1,4 +1,4 @@
-
+import React from "react";
 import Home from "./pages/home/Home";
 import Office from "./pages/Office/Office";
 import Dining from "./pages/Dining/Dining";
@@ -6,12 +6,11 @@ import Bedroom from "./pages/Bedroom/Bedroom";
 import Login from "./pages/Login/Login";
 import Register from "./pages/register/Register";
 import NewProduct from "./pages/NewProduct/NewProduct";
-import Search from "./pages/Search/Search";
 import Living from "./pages/Living/Living";
 import Outdoor from "./pages/Outdoor/Outdoor";
 import Cart from "./pages/Cart/Cart";
 import { Routes, Route} from "react-router-dom";
-
+const LazySearch = React.lazy(()=>import('./pages/Search/Search'));
 
 function App() {
   return (
@@ -25,7 +24,12 @@ function App() {
     <Route path ="/bedroom" element={<Bedroom/>}/>
     <Route path ="/living" element={<Living/>}/>
     <Route path ="/outdoor" element={<Outdoor/>}/>
-    <Route path ="/search" element={<Search/>}/>
+    <Route 
+    path ="/search" 
+    element={<React.Suspense fallback='Loading...'>
+              <LazySearch />
+            </React.Suspense>
+              }/>
     <Route path ="/login" element={<Login/>}/>
     <Route path ="/register" element={<Register/>}/>
     <Route path = "cart" element={<Cart/>} />
