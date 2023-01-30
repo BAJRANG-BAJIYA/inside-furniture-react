@@ -1,5 +1,5 @@
 import React from "react";
-
+import Loading from "./components/Loading/Loading";
 const LazyHome = React.lazy(()=>import('./pages/home/Home'));
 const LazySearch = React.lazy(()=>import('./pages/Search/Search'));
 const LazyNewProduct = React.lazy(()=>import('./pages/NewProduct/NewProduct'));
@@ -22,7 +22,7 @@ function App() {
   <Route 
   exact path="/" 
   element={
-    <React.Suspense fallback='Loading...'>
+    <React.Suspense fallback={<Loading/>}>
         <LazyHome/>
     </React.Suspense>
   } />
@@ -30,14 +30,14 @@ function App() {
     <Route 
     path ="/newproduct" 
     element={
-      <React.Suspense fallback='Loading...'>
+      <React.Suspense fallback={<Loading/>}>
         <LazyNewProduct/>
       </React.Suspense>
     }/>
     <Route 
     path ="/office" 
     element={
-      <React.Suspense fallback='Loading...'>
+      <React.Suspense fallback={<Loading/>}>
         <LazyOffice/>
       </React.Suspense>
     }/>
@@ -45,7 +45,7 @@ function App() {
     <Route 
     path ="/dining" 
     element={
-      <React.Suspense fallback='Loading...'>
+      <React.Suspense fallback={<Loading/>}>
         <LazyDining/>
       </React.Suspense>
     }/>
@@ -53,7 +53,7 @@ function App() {
     <Route 
     path ="/bedroom" 
     element={
-      <React.Suspense fallback='Loading...'>
+      <React.Suspense fallback={<Loading/>}>
         <LazyBedroom/>
       </React.Suspense>
     }/>
@@ -61,7 +61,7 @@ function App() {
     <Route 
     path ="/living" 
     element={
-      <React.Suspense fallback='Loading...'>
+      <React.Suspense fallback={<Loading/>}>
         <LazyLiving/>
       </React.Suspense>
     }/>
@@ -71,7 +71,7 @@ function App() {
     <Route 
     path ="/outdoor" 
     element={
-      <React.Suspense fallback='Loading...'>
+      <React.Suspense fallback={<Loading/>}>
         <LazyOutdoor/>
       </React.Suspense>
     }/>
@@ -79,7 +79,7 @@ function App() {
     <Route 
     path ="/search" 
     element={
-      <React.Suspense fallback='Loading...'>
+      <React.Suspense fallback={<Loading/>}>
           <LazySearch />
       </React.Suspense>
       }/>
@@ -87,7 +87,7 @@ function App() {
     <Route 
     path ="/login" 
     element={
-      <React.Suspense fallback='Loading...'>
+      <React.Suspense fallback={<Loading/>}>
       <LazyLogin/>
       </React.Suspense>
     }/>
@@ -95,7 +95,7 @@ function App() {
     <Route 
     path ="/register" 
     element={
-      <React.Suspense fallback='Loading...'>
+      <React.Suspense fallback={<Loading/>}>
          <LazyRegister/>
       </React.Suspense>
    }/>
@@ -103,7 +103,7 @@ function App() {
     <Route 
     path = "cart" 
     element={
-      <React.Suspense fallback='Loading...'>
+      <React.Suspense fallback={<Loading/>}>
           <LazyCart/>
       </React.Suspense>
     } />
