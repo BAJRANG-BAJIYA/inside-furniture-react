@@ -69,3 +69,10 @@
     text-size-adjust: 100%;
     
 }
+
+@media screen and (max-width:800px) {
+  .section-feature{
+    display: flex;
+    flex-direction: column;
+  }
+}
