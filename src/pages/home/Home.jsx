@@ -11,7 +11,7 @@ import Banner from '../../components/banner/Banner';
 import ShopAll from '../../components/shopAll/ShopAll';
 import ArrivalPoster from '../../components/ArrivalPoster/ArrivalPoster';
 import BestSellers from '../../components/BestSellers/BestSellers';
-
+import CategoryItem from '../../components/CategoryItem/CategoryItem';
 
 
 
@@ -21,11 +21,13 @@ const Home = () => {
     <NewsLetter/>
     <Navbar />
     <Banner/>
+    <CategoryItem/>
     <ArrivalPoster/>
     <ShopAll/>
     {/* <Featured/> */}
     {/* <Categories/> */}
     <BestSellers/>
+  
     <MailList/>
     <Footer />
     </div>
