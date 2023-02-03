@@ -11,7 +11,7 @@ const LazyOutdoor = React.lazy(()=>import('./pages/Outdoor/Outdoor'));
 const LazyLogin = React.lazy(()=>import('./pages/Login/Login')); 
 const LazyRegister = React.lazy(()=>import('./pages/register/Register')); 
 const LazyCart = React.lazy(()=>import('./pages/Cart/Cart')); 
-
+import Page404 from "./components/Page404/Page404";
 
 import { Routes, Route} from "react-router-dom";
 
@@ -108,6 +108,7 @@ function App() {
       </React.Suspense>
     } />
 
+      <Route path="/*" element= {<Page404 />} />
   </Routes>
     
     </div>
